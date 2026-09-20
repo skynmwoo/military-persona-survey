@@ -1,0 +1,4 @@
+matplotlib==3.10.5
+numpy==2.5.2
+pyarrow==25.0.1
+scipy==1.16.1

@@ -1,0 +1,22 @@
+.env
+.env.*
+.venv/
+__pycache__/
+*.py[cod]
+*.log
+*.tmp
+*.bak
+
+# Model weights and local runtimes are intentionally not distributed.
+models/
+tools/
+
+# Runtime checkpoints may contain transient provider responses.
+**/checkpoint.jsonl
+**/failed_attempts.jsonl
+**/provider_*history.jsonl
+
+# Credentials must never be committed.
+*api_key*
+*access_token*
+*secret*

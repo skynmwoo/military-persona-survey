@@ -1,0 +1,45 @@
+{
+  "checks": {
+    "inference_rows_48000": true,
+    "sample_rows_1000": true,
+    "sample_uuid_unique": true,
+    "old_smoke_files_unchanged": true,
+    "analysis_plan_hash_valid": true,
+    "rotation_balance_exact": true
+  },
+  "changed_preserved_files": [],
+  "core_files": {
+    "validation_1000_bootstrap.csv": {
+      "bytes": 20435,
+      "sha256": "34cc58cbef2a7e6ee3d4af07a9104ef21afea3745204a02fa4de02494f09fa84"
+    },
+    "validation_1000_human_comparison.csv": {
+      "bytes": 48452,
+      "sha256": "df1b9616b3509f23bcfd2ab165bc00836b6e6105600a450a8eb58ff2a03df45d"
+    },
+    "validation_1000_persona_effect.csv": {
+      "bytes": 2180,
+      "sha256": "23d07929d5fa6d49a735076e3369d5fc34b40e3d84fe2dfc27741ba0a56228f5"
+    },
+    "validation_1000_position_effect.csv": {
+      "bytes": 5306,
+      "sha256": "865e5a573477f76f77cb2374f0b2568dd2ae8b2e1bfc7a425a194feb25c322ee"
+    },
+    "validation_1000_primary_distribution.csv": {
+      "bytes": 64660,
+      "sha256": "27b0c06295cb08c7a568a747c9fc1d954334ef600d2a12ea1d77858bb136d70b"
+    },
+    "validation_1000_report.md": {
+      "bytes": 1165,
+      "sha256": "4573e6c082b3f845140cc6624901698c2cb8021037fcefd6f7c9be255274ced7"
+    },
+    "validation_1000_subgroup_comparison.csv": {
+      "bytes": 85607,
+      "sha256": "c4e96c42af9c34d391ececdf1c383194bac9f3220f648101703835a143841249"
+    },
+    "validation_1000_three_model_comparison.csv": {
+      "bytes": 3349,
+      "sha256": "02dbe8470b59afa08a629b3f476dd89674da6c69dc25f22a656eba4299344f34"
+    }
+  }
+}

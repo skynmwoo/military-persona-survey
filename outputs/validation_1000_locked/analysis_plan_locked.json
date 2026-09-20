@@ -1,0 +1,255 @@
+{
+  "phase": "locked_validation",
+  "status": "locked_before_inference",
+  "locked_at_local_date": "2026-08-20",
+  "sample": {
+    "path": "data/derived/validation_1000_locked_seed42.parquet",
+    "sha256": "6650945363b9cd2d7ca702ec98e900aa16cfada714642af3521a2c0e895a27f7",
+    "n": 1000,
+    "sampling_seed": 42,
+    "targets": {
+      "sex": {
+        "남성": 495,
+        "여성": 505
+      },
+      "age_group": {
+        "19-29": 146,
+        "30-39": 150,
+        "40-49": 169,
+        "50-59": 193,
+        "60-69": 179,
+        "70+": 163
+      },
+      "region": {
+        "서울": 186,
+        "인천·경기": 325,
+        "대전·세종·충청": 108,
+        "광주·전라": 96,
+        "대구·경북": 95,
+        "부산·울산·경남": 147,
+        "강원·제주": 43
+      }
+    }
+  },
+  "models": {
+    "qwen": {
+      "display": "Qwen3-8B-Q4_K_M",
+      "path": "models/Qwen3-8B-GGUF/Qwen3-8B-Q4_K_M.gguf",
+      "sha256": "d98cdcbd03e17ce47681435b5150e34c1417f50b5c0019dd560e4882c5745785",
+      "labels": {
+        "1": "1",
+        "2": "2",
+        "3": "3",
+        "4": "4",
+        "5": "5"
+      },
+      "chat_template": "model GGUF embedded template; /apply-template; exact smoke-validated model file",
+      "llama_cpp_build": 10514,
+      "llama_cpp_commit": "7221e24f5"
+    },
+    "exaone": {
+      "display": "EXAONE-3.5-7.8B-Instruct-Q4_K_M",
+      "path": "models/LGAI-EXAONE/EXAONE-3.5-7.8B-Instruct-GGUF/EXAONE-3.5-7.8B-Instruct-Q4_K_M.gguf",
+      "sha256": "2f4aff8d555b82500d4de2723810586e83e358003388fdd08bd52e6091e6ddd1",
+      "labels": {
+        "1": "1",
+        "2": "2",
+        "3": "3",
+        "4": "4",
+        "5": "5"
+      },
+      "chat_template": "model GGUF embedded template; /apply-template; exact smoke-validated model file",
+      "llama_cpp_build": 10514,
+      "llama_cpp_commit": "7221e24f5"
+    },
+    "gemma": {
+      "display": "Gemma-3-12B-QAT-Q4_0",
+      "path": "models/google/gemma-3-12b-it-qat-q4_0-gguf/gemma-3-12b-it-q4_0.gguf",
+      "sha256": "dd53172ff3a7b1b16c8fb3d944b87f42a6228ff2de3825b8813ae90d988434cd",
+      "labels": {
+        "1": "A",
+        "2": "B",
+        "3": "C",
+        "4": "D",
+        "5": "E"
+      },
+      "chat_template": "model GGUF embedded template; /apply-template; exact smoke-validated model file",
+      "llama_cpp_build": 10514,
+      "llama_cpp_commit": "7221e24f5"
+    }
+  },
+  "persona_conditions": [
+    "demographics_only",
+    "demographics_plus_persona"
+  ],
+  "persona_fields": {
+    "demographics_only": [
+      "sex",
+      "age",
+      "age_group",
+      "region/province",
+      "marital_status",
+      "education_level",
+      "occupation"
+    ],
+    "demographics_plus_persona": [
+      "sex",
+      "age",
+      "age_group",
+      "region/province",
+      "marital_status",
+      "education_level",
+      "occupation",
+      "persona"
+    ]
+  },
+  "system_prompt": "제공된 합성 인물의 관점에서 설문에 응답한다.\n제공되지 않은 새로운 생애사, 사건, 경험 등의 사실을 만들어내지 않는다.\n그러나 프로필에 해당 정책에 대한 의견이 명시되어 있지 않다는 이유만으로 자동으로 '잘 모르겠다'를 선택하지 않는다.\n실제 사람이 설문에 응답하듯 제공된 특성을 바탕으로 가장 자연스러운 정책 선호를 판단한다.\n'잘 모르겠다'는 정상적인 선택지이며 실제로 판단이 불확실한 경우 선택할 수 있다.\n특정 응답으로 유도하지 않는다.\n이유나 chain-of-thought를 생성하지 않는다.\n현재 문항의 선택지 코드 하나만 JSON 값으로 선택한다.",
+  "system_prompt_sha256": "97e7104a4e7103506ae421ef6407970820609821e6633ab89426f1cc6b4619bf",
+  "questions": {
+    "Q2": {
+      "text": "선택적 모병제는 현행 징병제를 유지하면서, 인공지능과 드론 등 전문 기술 분야에 한해 보수와 혜택을 강화한 기술집약형 부사관을 도입하는 징병제와 모병제의 혼합 방식입니다. 선생님께서는 선택적 모병제 도입에 대해 어떻게 생각하십니까?",
+      "choices": {
+        "1": "매우 찬성한다",
+        "2": "찬성하는 편이다",
+        "3": "반대하는 편이다",
+        "4": "매우 반대한다",
+        "5": "잘 모르겠다"
+      }
+    },
+    "Q3": {
+      "text": "장교와 부사관 지원이 정원에 미치지 못하는 상황이 이어지고 있습니다. 선생님께서는 선택적 모병제가 병력 충원 문제 해결에 도움이 될 것으로 보십니까?",
+      "choices": {
+        "1": "크게 도움될 것이다",
+        "2": "어느 정도 도움될 것이다",
+        "3": "별로 도움되지 않을 것이다",
+        "4": "전혀 도움되지 않을 것이다",
+        "5": "잘 모르겠다"
+      }
+    },
+    "Q4": {
+      "text": "앞으로 우리나라 병역제도가 어떤 방향으로 가야 한다고 생각하십니까?",
+      "choices": {
+        "1": "현행 징병제 유지",
+        "2": "징병제와 모병제 병행",
+        "3": "전면 모병제 전환",
+        "4": "잘 모르겠다"
+      }
+    },
+    "Q5": {
+      "text": "병역 자원이 줄어드는 상황에서 여성도 징병 대상에 포함하자는 주장이 있습니다. 선생님께서는 여성 징병제에 대해 어떻게 생각하십니까?",
+      "choices": {
+        "1": "매우 찬성한다",
+        "2": "찬성하는 편이다",
+        "3": "반대하는 편이다",
+        "4": "매우 반대한다",
+        "5": "잘 모르겠다"
+      }
+    }
+  },
+  "questions_sha256": "a88a5658538ab6c4fe11567ed770bd8856f74481f1ed509fd9d78b33591355be",
+  "Q1_excluded": true,
+  "inference": {
+    "context_length": 4096,
+    "next_tokens": 1,
+    "temperature": -1,
+    "sampling": false,
+    "top_k": 0,
+    "top_p": 1.0,
+    "min_p": 0.0,
+    "cache_prompt": false,
+    "seed": 2026,
+    "reasoning": "off",
+    "n_probs_initial": 64,
+    "n_probs_fallback": 512,
+    "probability": "softmax within valid semantic choice tokens"
+  },
+  "designs": {
+    "primary": "exact_replication_original_order",
+    "secondary": "counterbalanced_order",
+    "counterbalanced_assignment": "Sort all UUIDs by SHA256('2026|question|uuid'); rotation = zero-based rank modulo K. Independent of model and persona condition. Q2/Q3/Q5: 200 per rotation; Q4: 250 per rotation."
+  },
+  "primary_analysis": {
+    "estimate": "unweighted mean of original-order persona choice probabilities",
+    "question_metric": "TVD to human overall distribution",
+    "summary_metric": "mean Q2-Q5 TVD within model and persona condition",
+    "posthoc_weighting": false
+  },
+  "secondary_analysis": [
+    "MAE",
+    "Jensen-Shannon divergence",
+    "greedy distribution",
+    "counterbalanced probability distribution"
+  ],
+  "subgroup_analysis": {
+    "dimensions": [
+      "sex",
+      "age_group",
+      "region"
+    ],
+    "metric": "TVD",
+    "joint_subgroups": "not estimated"
+  },
+  "bootstrap": {
+    "unit": "persona",
+    "replicates": 1000,
+    "seed": 2026,
+    "interval": "percentile 95%",
+    "targets": [
+      "category probability",
+      "human TVD"
+    ]
+  },
+  "model_dependence": {
+    "pairs": [
+      "qwen-exaone",
+      "qwen-gemma",
+      "exaone-gemma"
+    ],
+    "metrics": [
+      "population TVD",
+      "mean same-uuid probability-vector TVD"
+    ]
+  },
+  "persona_effect": {
+    "paired_by": "model × uuid × question",
+    "metrics": [
+      "mean TVD",
+      "median TVD",
+      "argmax change rate",
+      "entropy change"
+    ]
+  },
+  "position_effect": {
+    "comparison": "original vs UUID-assigned cyclic rotation",
+    "metrics": [
+      "population TVD",
+      "individual TVD",
+      "argmax change rate",
+      "entropy change",
+      "semantic option position effect",
+      "unknown position effect"
+    ]
+  },
+  "no_tuning_rule": [
+    "no benchmark-driven prompt change",
+    "no temperature change",
+    "no logits scaling",
+    "no probability calibration",
+    "no category correction",
+    "no optimized ensemble weighting",
+    "no model exclusion",
+    "no question exclusion",
+    "no adverse-result rerun",
+    "no benchmark-based model selection"
+  ],
+  "benchmark": {
+    "path": "outputs/validation_1000_locked/benchmark/human_benchmark_subgroups_20260818.json",
+    "sha256": "4747341985ca61037529563a6b3447b400e2defd3191b8751376603c391830ce",
+    "source_pdf_sha256": "a578b1bee3bed349814f1f027adf4ea3f2c3b31f13baa166069c15e561b704d6",
+    "use": "evaluation only; never exposed to prompts"
+  },
+  "limitations": [
+    "Human youngest category is 18-29; synthetic category is 19-29 because Nemotron minimum age is 19.",
+    "Human raw microdata are unavailable; human subgroup uncertainty and unreported joint subgroups are not constructed."
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "timestamp": "2026-08-28T14:30:45+09:00",
+  "analysis": "Supplementary hard-choice model comparison final analysis",
+  "protocol_sha256": "5b0f6ddefc3e637d7eb74217aa8fee18a7d438c5bae00edc479bde90b3e2348d",
+  "locked_sample_sha256": "6650945363b9cd2d7ca702ec98e900aa16cfada714642af3521a2c0e895a27f7",
+  "benchmark_sha256": "4747341985ca61037529563a6b3447b400e2defd3191b8751376603c391830ce",
+  "probability_primary_source_sha256": "df1b9616b3509f23bcfd2ab165bc00836b6e6105600a450a8eb58ff2a03df45d",
+  "raw_input_sha256": {
+    "outputs/hard_choice_extension/full_run_v1/raw/qwen/observations.parquet": "ad294ed5d49d0d206132c582b464de66e1d8a1515212054611d69c32d80e9137",
+    "outputs/hard_choice_extension/full_run_v1/raw/exaone/observations.parquet": "1006ff60645408c00d2d502bc1c5222852fb301a0e1a995352cc12d0c5fb370b",
+    "outputs/hard_choice_extension/full_run_v1/raw/gemma/observations.parquet": "77a52e893acfec110ea17e1071f306b40dbca677a73bdcc154c580a086add9c3",
+    "outputs/hard_choice_extension/full_run_v1/raw/motif_run1/observations.parquet": "f92048d0aa4805789afeb7a615b52175660b3c2fd6a8f92552534ebb0998bf2f",
+    "outputs/hard_choice_extension/full_run_v1/raw/motif_replicate2/observations.parquet": "2084550efbd2598ee175cee1bd610df297594ea226b2d48eea59cce20036d2c8"
+  },
+  "analysis_script_sha256": "3ccd231a84f87b2863222a569a464c1bd28e773a7ba1ff22247139dc6a8c933c",
+  "outputs_sha256": {
+    "hard_choice_final_analysis_report.md": "fb54bc3787629359041e492acfff2fca06b7b604b08f360fc4664bb9ba7b2de6",
+    "hard_choice_key_results.json": "8b849eea8babac8068760c107b06cbff5a0cd80e4a0dee8fef2c0b35a187f826",
+    "audits/completeness_and_protection_audit.json": "ded83b5ef1705982a308343133bde68b0dbd43e1c0c4ff88ac59d4cc8dec8228",
+    "figures/Figure_HC1_human_vs_four_models.pdf": "8d3f94de4be72335ef016579b70231c3563250d0205f70e66a84bdf3e5bfbf65",
+    "figures/Figure_HC1_human_vs_four_models.png": "fcdba69b4bab2bb36520a196a343496492036d59d5d9ae405adbe0d497879836",
+    "figures/Figure_HC2_mean_human_tvd.pdf": "2798258497bd2c93f3bbde109b61b1e9d984f0a19dcec3f00c42df4d302c1d70",
+    "figures/Figure_HC2_mean_human_tvd.png": "45d0902408360e26f049fc0121d42bddb671cef00536dd6e36e7450f9598df14",
+    "figures/Figure_HC3_pairwise_model_dependence.pdf": "0f6d3bbbfdfbaf39d934dcfdce5dbe1f59ce82c919ec0d96ee6331bc6c68b7f6",
+    "figures/Figure_HC3_pairwise_model_dependence.png": "448548dd168520171506b0c5d8e30430c9d8cac5c81d9fe5477f81c4c6980d5a",
+    "figures/Figure_HC4_persona_order_switch_rates.pdf": "db1ea9cc2951e07fea9eb4f10ef8b77999b6bbaa5c703a169c33c2ec718ee5bb",
+    "figures/Figure_HC4_persona_order_switch_rates.png": "0463f2a7f132b92a8f40ff8115f375cb8af618fe6d5870d53d418576642ed03b",
+    "figures/Figure_HC5_motif_population_stability.pdf": "102f5e725bbc89e31b4897a7c7d088e79fcdfbada35d874ac9772b7d96952d3d",
+    "figures/Figure_HC5_motif_population_stability.png": "f80122b5b0c49489fcca73aef989fdd0feb1a22bc4b6652a5de28baac3b06469",
+    "figures/Figure_HC6_probability_vs_hardchoice.pdf": "b933dc8261298dbeefa44cbfccbaa8d76956ace6354484ed424f6f9c452f584c",
+    "figures/Figure_HC6_probability_vs_hardchoice.png": "13688ceae9642e207733a381c6b8a14dc687ae3372af58389abb9d8024c56597",
+    "tables/HC1_four_model_human_original_order.csv": "8cb83bc3f03bc202e058cdea1424ab9ce63ae304d60c63f31d3eaf5a11a46971",
+    "tables/HC2_four_model_category_distributions.csv": "ad78273b6605b3cd3c8a84440f1f9eb2f67a464bf77f307b413a7b05390f5ec1",
+    "tables/HC3_model_dependence.csv": "d3f45e2738ba70bfd694ec20fa2cb07c9acaec9fe3a96e7128df0b2caadedd2d",
+    "tables/HC4_persona_effect.csv": "799f9b825c4c9cdaa5d27375a3c58cc9948c4f142a8f4ba490fad5aade485922",
+    "tables/HC5_order_effect.csv": "3351f197436c2a7ad030e03c48d86d2fd23801e800eed5bfec614813a7750a25",
+    "tables/HC6_format_compliance.csv": "f9ba6653e2139e298adeac163cb685687fec02836fdb7c9df445190a382ba1df",
+    "tables/HC7_motif_stochasticity.csv": "543947c36a0bd37001d51a39a648c0f71ecd6166ace468c3e791d06aa0e0238d",
+    "tables/HC8_probability_vs_hardchoice.csv": "cc8d8605d5d437f8db9d1176cd2407c991c634e2c8c54b8bf3ae6e6c448524cf",
+    "tables/HC9_subgroup_external_validation.csv": "c22a64286ce85bb9053395382af2e0730ee2c1002aa321e2b0910c11c8423f7d"
+  },
+  "bootstrap": {
+    "replicates": 1000,
+    "seed": 2026,
+    "unit": "persona"
+  },
+  "primary_files_modified": [],
+  "api_key_exposure": 0,
+  "new_inference": false,
+  "manuscript_modified": false
+}

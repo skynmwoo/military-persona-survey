@@ -1,0 +1,248 @@
+{
+  "timestamp": "2026-08-28T14:30:44+09:00",
+  "benchmark_normalization_rule": "verbatim percentages divided by 100; no renormalization",
+  "original_order_mean_human_tvd": {
+    "qwen_demographics_only": 0.48050000000000004,
+    "qwen_demographics_plus_persona": 0.46425,
+    "exaone_demographics_only": 0.6055,
+    "exaone_demographics_plus_persona": 0.61175,
+    "gemma_demographics_only": 0.61925,
+    "gemma_demographics_plus_persona": 0.62325,
+    "motif_demographics_only": 0.5992500000000001,
+    "motif_demographics_plus_persona": 0.55
+  },
+  "closest_model_condition": {
+    "key": "qwen_demographics_plus_persona",
+    "mean_tvd": 0.46425
+  },
+  "persona_effect_original_order": {
+    "qwen": {
+      "population_tvd": 0.09475,
+      "switch_rate": 0.13724999999999998,
+      "human_tvd_delta_persona_minus_demo": -0.016250000000000007
+    },
+    "exaone": {
+      "population_tvd": 0.07375000000000001,
+      "switch_rate": 0.16025,
+      "human_tvd_delta_persona_minus_demo": 0.006249999999999964
+    },
+    "gemma": {
+      "population_tvd": 0.16324999999999998,
+      "switch_rate": 0.22475,
+      "human_tvd_delta_persona_minus_demo": 0.0040000000000000036
+    },
+    "motif": {
+      "population_tvd": 0.13449999999999998,
+      "switch_rate": 0.20850000000000002,
+      "human_tvd_delta_persona_minus_demo": -0.049249999999999974
+    }
+  },
+  "order_switch_rate_mean_across_persona_conditions": {
+    "qwen": 0.261375,
+    "exaone": 0.247,
+    "gemma": 0.247,
+    "motif": 0.39047684285320894
+  },
+  "model_dependence_original_order": {
+    "qwen-exaone": {
+      "population_tvd": 0.5459999999999999,
+      "same_uuid_disagreement_rate": 0.587,
+      "persona_condition": "demographics_plus_persona"
+    },
+    "qwen-gemma": {
+      "population_tvd": 0.57725,
+      "same_uuid_disagreement_rate": 0.6695,
+      "persona_condition": "demographics_plus_persona"
+    },
+    "qwen-motif": {
+      "population_tvd": 0.32375,
+      "same_uuid_disagreement_rate": 0.35650000000000004,
+      "persona_condition": "demographics_plus_persona"
+    },
+    "exaone-gemma": {
+      "population_tvd": 0.6224999999999999,
+      "same_uuid_disagreement_rate": 0.6387499999999999,
+      "persona_condition": "demographics_plus_persona"
+    },
+    "exaone-motif": {
+      "population_tvd": 0.67625,
+      "same_uuid_disagreement_rate": 0.70575,
+      "persona_condition": "demographics_plus_persona"
+    },
+    "gemma-motif": {
+      "population_tvd": 0.6579999999999999,
+      "same_uuid_disagreement_rate": 0.6717500000000001,
+      "persona_condition": "demographics_plus_persona"
+    }
+  },
+  "motif_stochasticity": {
+    "paired_valid": 15990,
+    "different": 1449,
+    "disagreement_rate": 0.09061913696060038,
+    "population_cell_mean_tvd": 0.007693821579856193,
+    "question_tvd": {
+      "Q2": 0.011272280307400724,
+      "Q3": 0.006249999999999999,
+      "Q4": 0.007249999999999997,
+      "Q5": 0.006003006012024052
+    },
+    "max_category_pp": {
+      "question_id": "Q2",
+      "persona_condition": "demographics_only",
+      "order_condition": "original_order",
+      "semantic_choice": 2,
+      "percentage_point_difference_run2_minus_run1": -1.8000000000000016,
+      "absolute_percentage_points": 1.8000000000000016
+    }
+  },
+  "bootstrap": [
+    {
+      "model": "Qwen3-8B",
+      "model_key": "qwen",
+      "persona_condition": "demographics_only",
+      "point_mean_tvd": 0.48050000000000004,
+      "bootstrap_mean": 0.48038225,
+      "ci_lower_2_5": 0.47050000000000003,
+      "ci_upper_97_5": 0.49024999999999996,
+      "bootstrap_replicates": 1000,
+      "seed": 2026
+    },
+    {
+      "model": "Qwen3-8B",
+      "model_key": "qwen",
+      "persona_condition": "demographics_plus_persona",
+      "point_mean_tvd": 0.46425,
+      "bootstrap_mean": 0.46416399999999997,
+      "ci_lower_2_5": 0.46075,
+      "ci_upper_97_5": 0.46775,
+      "bootstrap_replicates": 1000,
+      "seed": 2026
+    },
+    {
+      "model": "EXAONE-3.5-7.8B-Instruct",
+      "model_key": "exaone",
+      "persona_condition": "demographics_only",
+      "point_mean_tvd": 0.6055,
+      "bootstrap_mean": 0.60644575,
+      "ci_lower_2_5": 0.603,
+      "ci_upper_97_5": 0.613,
+      "bootstrap_replicates": 1000,
+      "seed": 2026
+    },
+    {
+      "model": "EXAONE-3.5-7.8B-Instruct",
+      "model_key": "exaone",
+      "persona_condition": "demographics_plus_persona",
+      "point_mean_tvd": 0.61175,
+      "bootstrap_mean": 0.6116827499999999,
+      "ci_lower_2_5": 0.6044937499999999,
+      "ci_upper_97_5": 0.61975,
+      "bootstrap_replicates": 1000,
+      "seed": 2026
+    },
+    {
+      "model": "Gemma-3-12B",
+      "model_key": "gemma",
+      "persona_condition": "demographics_only",
+      "point_mean_tvd": 0.61925,
+      "bootstrap_mean": 0.6194339999999999,
+      "ci_lower_2_5": 0.6112500000000001,
+      "ci_upper_97_5": 0.62675,
+      "bootstrap_replicates": 1000,
+      "seed": 2026
+    },
+    {
+      "model": "Gemma-3-12B",
+      "model_key": "gemma",
+      "persona_condition": "demographics_plus_persona",
+      "point_mean_tvd": 0.62325,
+      "bootstrap_mean": 0.62318625,
+      "ci_lower_2_5": 0.6154999999999999,
+      "ci_upper_97_5": 0.62975,
+      "bootstrap_replicates": 1000,
+      "seed": 2026
+    },
+    {
+      "model": "Motif 3",
+      "model_key": "motif",
+      "persona_condition": "demographics_only",
+      "point_mean_tvd": 0.5992500000000001,
+      "bootstrap_mean": 0.5991865000000001,
+      "ci_lower_2_5": 0.59175,
+      "ci_upper_97_5": 0.6072500000000001,
+      "bootstrap_replicates": 1000,
+      "seed": 2026
+    },
+    {
+      "model": "Motif 3",
+      "model_key": "motif",
+      "persona_condition": "demographics_plus_persona",
+      "point_mean_tvd": 0.55,
+      "bootstrap_mean": 0.5499299999999999,
+      "ci_lower_2_5": 0.54224375,
+      "ci_upper_97_5": 0.55775,
+      "bootstrap_replicates": 1000,
+      "seed": 2026
+    }
+  ],
+  "format_integrity": {
+    "qwen": {
+      "observations": 16000,
+      "unique_keys": 16000,
+      "duplicate_keys": 0,
+      "semantic_valid_count": 16000,
+      "semantic_invalid_count": 0,
+      "semantic_valid_rate": 1.0,
+      "format_compliant_count": 16000,
+      "format_compliant_rate": 1.0,
+      "api_model_failures": 0
+    },
+    "exaone": {
+      "observations": 16000,
+      "unique_keys": 16000,
+      "duplicate_keys": 0,
+      "semantic_valid_count": 16000,
+      "semantic_invalid_count": 0,
+      "semantic_valid_rate": 1.0,
+      "format_compliant_count": 16000,
+      "format_compliant_rate": 1.0,
+      "api_model_failures": 0
+    },
+    "gemma": {
+      "observations": 16000,
+      "unique_keys": 16000,
+      "duplicate_keys": 0,
+      "semantic_valid_count": 16000,
+      "semantic_invalid_count": 0,
+      "semantic_valid_rate": 1.0,
+      "format_compliant_count": 16000,
+      "format_compliant_rate": 1.0,
+      "api_model_failures": 0
+    },
+    "motif": {
+      "observations": 16000,
+      "unique_keys": 16000,
+      "duplicate_keys": 0,
+      "semantic_valid_count": 15995,
+      "semantic_invalid_count": 5,
+      "semantic_valid_rate": 0.9996875,
+      "format_compliant_count": 15786,
+      "format_compliant_rate": 0.986625,
+      "api_model_failures": 0
+    },
+    "motif_run2": {
+      "observations": 16000,
+      "unique_keys": 16000,
+      "duplicate_keys": 0,
+      "semantic_valid_count": 15993,
+      "semantic_invalid_count": 7,
+      "semantic_valid_rate": 0.9995625,
+      "format_compliant_count": 15790,
+      "format_compliant_rate": 0.986875,
+      "api_model_failures": 0
+    }
+  },
+  "human_benchmark_sha256": "4747341985ca61037529563a6b3447b400e2defd3191b8751376603c391830ce",
+  "human_benchmark_accessed_for_analysis": true,
+  "new_inference_executed": false
+}

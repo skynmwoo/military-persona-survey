@@ -1,0 +1,9 @@
+﻿model,model_key,persona_condition,probability_based_original_order_mean_tvd,hard_choice_original_order_mean_tvd,hard_choice_minus_probability_tvd,interpretation
+Qwen3-8B,qwen,demographics_only,0.5263027558950661,0.48050000000000004,-0.045802755895066105,descriptive measurement-interface difference; estimands not interchangeable
+Qwen3-8B,qwen,demographics_plus_persona,0.577443037540049,0.46425,-0.113193037540049,descriptive measurement-interface difference; estimands not interchangeable
+EXAONE-3.5-7.8B-Instruct,exaone,demographics_only,0.541035112569468,0.6055,0.06446488743053203,descriptive measurement-interface difference; estimands not interchangeable
+EXAONE-3.5-7.8B-Instruct,exaone,demographics_plus_persona,0.5746870532756737,0.61175,0.03706294672432631,descriptive measurement-interface difference; estimands not interchangeable
+Gemma-3-12B,gemma,demographics_only,0.5321674820329845,0.61925,0.0870825179670155,descriptive measurement-interface difference; estimands not interchangeable
+Gemma-3-12B,gemma,demographics_plus_persona,0.561918755632032,0.62325,0.061331244367967996,descriptive measurement-interface difference; estimands not interchangeable
+Motif 3,motif,demographics_only,NA,0.5992500000000001,NA,Motif probability vector unavailable
+Motif 3,motif,demographics_plus_persona,NA,0.55,NA,Motif probability vector unavailable

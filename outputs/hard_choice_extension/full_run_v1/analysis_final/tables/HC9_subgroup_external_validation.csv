@@ -1,0 +1,481 @@
+﻿model,model_key,persona_condition,order_condition,dimension,subgroup,question_id,synthetic_total_n,semantic_valid_n,semantic_invalid_n,human_weighted_n,human_tvd
+Qwen3-8B,qwen,demographics_only,original_order,sex,남성,Q2,495,495,0,498,0.6515909090909091
+Qwen3-8B,qwen,demographics_only,original_order,sex,남성,Q3,495,495,0,498,0.5125000000000001
+Qwen3-8B,qwen,demographics_only,original_order,sex,남성,Q4,495,495,0,498,0.3325555555555556
+Qwen3-8B,qwen,demographics_only,original_order,sex,남성,Q5,495,495,0,498,0.4815000000000001
+Qwen3-8B,qwen,demographics_only,original_order,sex,여성,Q2,505,505,0,508,0.5831683168316832
+Qwen3-8B,qwen,demographics_only,original_order,sex,여성,Q3,505,505,0,508,0.514
+Qwen3-8B,qwen,demographics_only,original_order,sex,여성,Q4,505,505,0,508,0.3731980198019802
+Qwen3-8B,qwen,demographics_only,original_order,sex,여성,Q5,505,505,0,508,0.39703960396039606
+Qwen3-8B,qwen,demographics_only,original_order,age,19-29,Q2,146,146,0,147,0.74
+Qwen3-8B,qwen,demographics_only,original_order,age,19-29,Q3,146,146,0,147,0.7556027397260273
+Qwen3-8B,qwen,demographics_only,original_order,age,19-29,Q4,146,146,0,147,0.6621506849315069
+Qwen3-8B,qwen,demographics_only,original_order,age,19-29,Q5,146,146,0,147,0.7216027397260274
+Qwen3-8B,qwen,demographics_only,original_order,age,30-39,Q2,150,150,0,151,0.808
+Qwen3-8B,qwen,demographics_only,original_order,age,30-39,Q3,150,150,0,151,0.7016666666666665
+Qwen3-8B,qwen,demographics_only,original_order,age,30-39,Q4,150,150,0,151,0.5960000000000001
+Qwen3-8B,qwen,demographics_only,original_order,age,30-39,Q5,150,150,0,151,0.5461666666666666
+Qwen3-8B,qwen,demographics_only,original_order,age,40-49,Q2,169,169,0,170,0.7245828402366863
+Qwen3-8B,qwen,demographics_only,original_order,age,40-49,Q3,169,169,0,170,0.541319526627219
+Qwen3-8B,qwen,demographics_only,original_order,age,40-49,Q4,169,169,0,170,0.5291656804733728
+Qwen3-8B,qwen,demographics_only,original_order,age,40-49,Q5,169,169,0,170,0.46
+Qwen3-8B,qwen,demographics_only,original_order,age,50-59,Q2,193,193,0,194,0.6878678756476684
+Qwen3-8B,qwen,demographics_only,original_order,age,50-59,Q3,193,193,0,194,0.4615
+Qwen3-8B,qwen,demographics_only,original_order,age,50-59,Q4,193,193,0,194,0.4813678756476683
+Qwen3-8B,qwen,demographics_only,original_order,age,50-59,Q5,193,193,0,194,0.40950000000000003
+Qwen3-8B,qwen,demographics_only,original_order,age,60-69,Q2,179,179,0,180,0.55368156424581
+Qwen3-8B,qwen,demographics_only,original_order,age,60-69,Q3,179,179,0,180,0.702268156424581
+Qwen3-8B,qwen,demographics_only,original_order,age,60-69,Q4,179,179,0,180,0.2339134078212291
+Qwen3-8B,qwen,demographics_only,original_order,age,60-69,Q5,179,179,0,180,0.7202206703910614
+Qwen3-8B,qwen,demographics_only,original_order,age,70+,Q2,163,163,0,164,0.5015000000000001
+Qwen3-8B,qwen,demographics_only,original_order,age,70+,Q3,163,163,0,164,0.7758650306748467
+Qwen3-8B,qwen,demographics_only,original_order,age,70+,Q4,163,163,0,164,0.6381656441717791
+Qwen3-8B,qwen,demographics_only,original_order,age,70+,Q5,163,163,0,164,0.7680950920245398
+Qwen3-8B,qwen,demographics_only,original_order,region,서울,Q2,186,186,0,187,0.6934838709677419
+Qwen3-8B,qwen,demographics_only,original_order,region,서울,Q3,186,186,0,187,0.5875
+Qwen3-8B,qwen,demographics_only,original_order,region,서울,Q4,186,186,0,187,0.3321881720430107
+Qwen3-8B,qwen,demographics_only,original_order,region,서울,Q5,186,186,0,187,0.4775000000000001
+Qwen3-8B,qwen,demographics_only,original_order,region,인천·경기,Q2,325,325,0,327,0.6538076923076923
+Qwen3-8B,qwen,demographics_only,original_order,region,인천·경기,Q3,325,325,0,327,0.492
+Qwen3-8B,qwen,demographics_only,original_order,region,인천·경기,Q4,325,325,0,327,0.33549999999999996
+Qwen3-8B,qwen,demographics_only,original_order,region,인천·경기,Q5,325,325,0,327,0.44999999999999996
+Qwen3-8B,qwen,demographics_only,original_order,region,대전·세종·충청,Q2,108,108,0,109,0.6160000000000001
+Qwen3-8B,qwen,demographics_only,original_order,region,대전·세종·충청,Q3,108,108,0,109,0.49400000000000005
+Qwen3-8B,qwen,demographics_only,original_order,region,대전·세종·충청,Q4,108,108,0,109,0.38755555555555554
+Qwen3-8B,qwen,demographics_only,original_order,region,대전·세종·충청,Q5,108,108,0,109,0.4637407407407408
+Qwen3-8B,qwen,demographics_only,original_order,region,광주·전라,Q2,96,96,0,96,0.5403333333333333
+Qwen3-8B,qwen,demographics_only,original_order,region,광주·전라,Q3,96,96,0,96,0.48650000000000004
+Qwen3-8B,qwen,demographics_only,original_order,region,광주·전라,Q4,96,96,0,96,0.37775
+Qwen3-8B,qwen,demographics_only,original_order,region,광주·전라,Q5,96,96,0,96,0.3920833333333333
+Qwen3-8B,qwen,demographics_only,original_order,region,대구·경북,Q2,95,95,0,96,0.548578947368421
+Qwen3-8B,qwen,demographics_only,original_order,region,대구·경북,Q3,95,95,0,96,0.526
+Qwen3-8B,qwen,demographics_only,original_order,region,대구·경북,Q4,95,95,0,96,0.44886842105263164
+Qwen3-8B,qwen,demographics_only,original_order,region,대구·경북,Q5,95,95,0,96,0.404
+Qwen3-8B,qwen,demographics_only,original_order,region,부산·울산·경남,Q2,147,147,0,148,0.5357346938775511
+Qwen3-8B,qwen,demographics_only,original_order,region,부산·울산·경남,Q3,147,147,0,148,0.464
+Qwen3-8B,qwen,demographics_only,original_order,region,부산·울산·경남,Q4,147,147,0,148,0.30629931972789115
+Qwen3-8B,qwen,demographics_only,original_order,region,부산·울산·경남,Q5,147,147,0,148,0.379
+Qwen3-8B,qwen,demographics_only,original_order,region,강원·제주,Q2,43,43,0,43,0.6485
+Qwen3-8B,qwen,demographics_only,original_order,region,강원·제주,Q3,43,43,0,43,0.6140000000000001
+Qwen3-8B,qwen,demographics_only,original_order,region,강원·제주,Q4,43,43,0,43,0.3819302325581395
+Qwen3-8B,qwen,demographics_only,original_order,region,강원·제주,Q5,43,43,0,43,0.5205
+Qwen3-8B,qwen,demographics_plus_persona,original_order,sex,남성,Q2,495,495,0,498,0.7081565656565657
+Qwen3-8B,qwen,demographics_plus_persona,original_order,sex,남성,Q3,495,495,0,498,0.5125000000000001
+Qwen3-8B,qwen,demographics_plus_persona,original_order,sex,남성,Q4,495,495,0,498,0.188
+Qwen3-8B,qwen,demographics_plus_persona,original_order,sex,남성,Q5,495,495,0,498,0.4815
+Qwen3-8B,qwen,demographics_plus_persona,original_order,sex,여성,Q2,505,505,0,508,0.6445544554455446
+Qwen3-8B,qwen,demographics_plus_persona,original_order,sex,여성,Q3,505,505,0,508,0.514
+Qwen3-8B,qwen,demographics_plus_persona,original_order,sex,여성,Q4,505,505,0,508,0.2722079207920792
+Qwen3-8B,qwen,demographics_plus_persona,original_order,sex,여성,Q5,505,505,0,508,0.3950594059405941
+Qwen3-8B,qwen,demographics_plus_persona,original_order,age,19-29,Q2,146,146,0,147,0.74
+Qwen3-8B,qwen,demographics_plus_persona,original_order,age,19-29,Q3,146,146,0,147,0.7693013698630137
+Qwen3-8B,qwen,demographics_plus_persona,original_order,age,19-29,Q4,146,146,0,147,0.5731095890410958
+Qwen3-8B,qwen,demographics_plus_persona,original_order,age,19-29,Q5,146,146,0,147,0.7353013698630138
+Qwen3-8B,qwen,demographics_plus_persona,original_order,age,30-39,Q2,150,150,0,151,0.808
+Qwen3-8B,qwen,demographics_plus_persona,original_order,age,30-39,Q3,150,150,0,151,0.7283333333333333
+Qwen3-8B,qwen,demographics_plus_persona,original_order,age,30-39,Q4,150,150,0,151,0.47600000000000003
+Qwen3-8B,qwen,demographics_plus_persona,original_order,age,30-39,Q5,150,150,0,151,0.6061666666666666
+Qwen3-8B,qwen,demographics_plus_persona,original_order,age,40-49,Q2,169,169,0,170,0.7304999999999999
+Qwen3-8B,qwen,demographics_plus_persona,original_order,age,40-49,Q3,169,169,0,170,0.5886568047337278
+Qwen3-8B,qwen,demographics_plus_persona,original_order,age,40-49,Q4,169,169,0,170,0.3398165680473373
+Qwen3-8B,qwen,demographics_plus_persona,original_order,age,40-49,Q5,169,169,0,170,0.5102366863905324
+Qwen3-8B,qwen,demographics_plus_persona,original_order,age,50-59,Q2,193,193,0,194,0.7345
+Qwen3-8B,qwen,demographics_plus_persona,original_order,age,50-59,Q3,193,193,0,194,0.4615
+Qwen3-8B,qwen,demographics_plus_persona,original_order,age,50-59,Q4,193,193,0,194,0.221
+Qwen3-8B,qwen,demographics_plus_persona,original_order,age,50-59,Q5,193,193,0,194,0.40950000000000003
+Qwen3-8B,qwen,demographics_plus_persona,original_order,age,60-69,Q2,179,179,0,180,0.6486536312849162
+Qwen3-8B,qwen,demographics_plus_persona,original_order,age,60-69,Q3,179,179,0,180,0.5402569832402234
+Qwen3-8B,qwen,demographics_plus_persona,original_order,age,60-69,Q4,179,179,0,180,0.33054469273743015
+Qwen3-8B,qwen,demographics_plus_persona,original_order,age,60-69,Q5,179,179,0,180,0.6252486033519553
+Qwen3-8B,qwen,demographics_plus_persona,original_order,age,70+,Q2,163,163,0,164,0.5015
+Qwen3-8B,qwen,demographics_plus_persona,original_order,age,70+,Q3,163,163,0,164,0.7697300613496932
+Qwen3-8B,qwen,demographics_plus_persona,original_order,age,70+,Q4,163,163,0,164,0.6443006134969326
+Qwen3-8B,qwen,demographics_plus_persona,original_order,age,70+,Q5,163,163,0,164,0.7435552147239264
+Qwen3-8B,qwen,demographics_plus_persona,original_order,region,서울,Q2,186,186,0,187,0.7418709677419355
+Qwen3-8B,qwen,demographics_plus_persona,original_order,region,서울,Q3,186,186,0,187,0.5875
+Qwen3-8B,qwen,demographics_plus_persona,original_order,region,서울,Q4,186,186,0,187,0.2891774193548387
+Qwen3-8B,qwen,demographics_plus_persona,original_order,region,서울,Q5,186,186,0,187,0.4775000000000001
+Qwen3-8B,qwen,demographics_plus_persona,original_order,region,인천·경기,Q2,325,325,0,327,0.6876538461538461
+Qwen3-8B,qwen,demographics_plus_persona,original_order,region,인천·경기,Q3,325,325,0,327,0.492
+Qwen3-8B,qwen,demographics_plus_persona,original_order,region,인천·경기,Q4,325,325,0,327,0.20849999999999996
+Qwen3-8B,qwen,demographics_plus_persona,original_order,region,인천·경기,Q5,325,325,0,327,0.4407692307692308
+Qwen3-8B,qwen,demographics_plus_persona,original_order,region,대전·세종·충청,Q2,108,108,0,109,0.6992222222222223
+Qwen3-8B,qwen,demographics_plus_persona,original_order,region,대전·세종·충청,Q3,108,108,0,109,0.49400000000000005
+Qwen3-8B,qwen,demographics_plus_persona,original_order,region,대전·세종·충청,Q4,108,108,0,109,0.228
+Qwen3-8B,qwen,demographics_plus_persona,original_order,region,대전·세종·충청,Q5,108,108,0,109,0.47300000000000003
+Qwen3-8B,qwen,demographics_plus_persona,original_order,region,광주·전라,Q2,96,96,0,96,0.5715833333333333
+Qwen3-8B,qwen,demographics_plus_persona,original_order,region,광주·전라,Q3,96,96,0,96,0.48650000000000004
+Qwen3-8B,qwen,demographics_plus_persona,original_order,region,광주·전라,Q4,96,96,0,96,0.32658333333333334
+Qwen3-8B,qwen,demographics_plus_persona,original_order,region,광주·전라,Q5,96,96,0,96,0.40249999999999997
+Qwen3-8B,qwen,demographics_plus_persona,original_order,region,대구·경북,Q2,95,95,0,96,0.6433157894736842
+Qwen3-8B,qwen,demographics_plus_persona,original_order,region,대구·경북,Q3,95,95,0,96,0.526
+Qwen3-8B,qwen,demographics_plus_persona,original_order,region,대구·경북,Q4,95,95,0,96,0.27149999999999996
+Qwen3-8B,qwen,demographics_plus_persona,original_order,region,대구·경북,Q5,95,95,0,96,0.404
+Qwen3-8B,qwen,demographics_plus_persona,original_order,region,부산·울산·경남,Q2,147,147,0,148,0.6241700680272109
+Qwen3-8B,qwen,demographics_plus_persona,original_order,region,부산·울산·경남,Q3,147,147,0,148,0.464
+Qwen3-8B,qwen,demographics_plus_persona,original_order,region,부산·울산·경남,Q4,147,147,0,148,0.21500000000000002
+Qwen3-8B,qwen,demographics_plus_persona,original_order,region,부산·울산·경남,Q5,147,147,0,148,0.379
+Qwen3-8B,qwen,demographics_plus_persona,original_order,region,강원·제주,Q2,43,43,0,43,0.7267325581395349
+Qwen3-8B,qwen,demographics_plus_persona,original_order,region,강원·제주,Q3,43,43,0,43,0.6140000000000001
+Qwen3-8B,qwen,demographics_plus_persona,original_order,region,강원·제주,Q4,43,43,0,43,0.302
+Qwen3-8B,qwen,demographics_plus_persona,original_order,region,강원·제주,Q5,43,43,0,43,0.5205
+EXAONE-3.5-7.8B-Instruct,exaone,demographics_only,original_order,sex,남성,Q2,495,495,0,498,0.6705
+EXAONE-3.5-7.8B-Instruct,exaone,demographics_only,original_order,sex,남성,Q3,495,495,0,498,0.6985
+EXAONE-3.5-7.8B-Instruct,exaone,demographics_only,original_order,sex,남성,Q4,495,495,0,498,0.18193939393939396
+EXAONE-3.5-7.8B-Instruct,exaone,demographics_only,original_order,sex,남성,Q5,495,495,0,498,0.9604393939393938
+EXAONE-3.5-7.8B-Instruct,exaone,demographics_only,original_order,sex,여성,Q2,505,505,0,508,0.6312772277227723
+EXAONE-3.5-7.8B-Instruct,exaone,demographics_only,original_order,sex,여성,Q3,505,505,0,508,0.591
+EXAONE-3.5-7.8B-Instruct,exaone,demographics_only,original_order,sex,여성,Q4,505,505,0,508,0.29682178217821786
+EXAONE-3.5-7.8B-Instruct,exaone,demographics_only,original_order,sex,여성,Q5,505,505,0,508,0.907
+EXAONE-3.5-7.8B-Instruct,exaone,demographics_only,original_order,age,19-29,Q2,146,146,0,147,0.651
+EXAONE-3.5-7.8B-Instruct,exaone,demographics_only,original_order,age,19-29,Q3,146,146,0,147,0.764
+EXAONE-3.5-7.8B-Instruct,exaone,demographics_only,original_order,age,19-29,Q4,146,146,0,147,0.6005068493150684
+EXAONE-3.5-7.8B-Instruct,exaone,demographics_only,original_order,age,19-29,Q5,146,146,0,147,0.972
+EXAONE-3.5-7.8B-Instruct,exaone,demographics_only,original_order,age,30-39,Q2,150,150,0,151,0.747
+EXAONE-3.5-7.8B-Instruct,exaone,demographics_only,original_order,age,30-39,Q3,150,150,0,151,0.732
+EXAONE-3.5-7.8B-Instruct,exaone,demographics_only,original_order,age,30-39,Q4,150,150,0,151,0.43600000000000005
+EXAONE-3.5-7.8B-Instruct,exaone,demographics_only,original_order,age,30-39,Q5,150,150,0,151,0.9698333333333333
+EXAONE-3.5-7.8B-Instruct,exaone,demographics_only,original_order,age,40-49,Q2,169,169,0,170,0.6495
+EXAONE-3.5-7.8B-Instruct,exaone,demographics_only,original_order,age,40-49,Q3,169,169,0,170,0.649
+EXAONE-3.5-7.8B-Instruct,exaone,demographics_only,original_order,age,40-49,Q4,169,169,0,170,0.19008284023668645
+EXAONE-3.5-7.8B-Instruct,exaone,demographics_only,original_order,age,40-49,Q5,169,169,0,170,0.981
+EXAONE-3.5-7.8B-Instruct,exaone,demographics_only,original_order,age,50-59,Q2,193,193,0,194,0.6435
+EXAONE-3.5-7.8B-Instruct,exaone,demographics_only,original_order,age,50-59,Q3,193,193,0,194,0.5955
+EXAONE-3.5-7.8B-Instruct,exaone,demographics_only,original_order,age,50-59,Q4,193,193,0,194,0.4598393782383419
+EXAONE-3.5-7.8B-Instruct,exaone,demographics_only,original_order,age,50-59,Q5,193,193,0,194,0.8931373056994818
+EXAONE-3.5-7.8B-Instruct,exaone,demographics_only,original_order,age,60-69,Q2,179,179,0,180,0.7609217877094973
+EXAONE-3.5-7.8B-Instruct,exaone,demographics_only,original_order,age,60-69,Q3,179,179,0,180,0.587
+EXAONE-3.5-7.8B-Instruct,exaone,demographics_only,original_order,age,60-69,Q4,179,179,0,180,0.5875279329608938
+EXAONE-3.5-7.8B-Instruct,exaone,demographics_only,original_order,age,60-69,Q5,179,179,0,180,0.9135
+EXAONE-3.5-7.8B-Instruct,exaone,demographics_only,original_order,age,70+,Q2,163,163,0,164,0.7568251533742331
+EXAONE-3.5-7.8B-Instruct,exaone,demographics_only,original_order,age,70+,Q3,163,163,0,164,0.6484110429447852
+EXAONE-3.5-7.8B-Instruct,exaone,demographics_only,original_order,age,70+,Q4,163,163,0,164,0.767
+EXAONE-3.5-7.8B-Instruct,exaone,demographics_only,original_order,age,70+,Q5,163,163,0,164,0.8845000000000001
+EXAONE-3.5-7.8B-Instruct,exaone,demographics_only,original_order,region,서울,Q2,186,186,0,187,0.671
+EXAONE-3.5-7.8B-Instruct,exaone,demographics_only,original_order,region,서울,Q3,186,186,0,187,0.7055
+EXAONE-3.5-7.8B-Instruct,exaone,demographics_only,original_order,region,서울,Q4,186,186,0,187,0.17437096774193545
+EXAONE-3.5-7.8B-Instruct,exaone,demographics_only,original_order,region,서울,Q5,186,186,0,187,0.9615
+EXAONE-3.5-7.8B-Instruct,exaone,demographics_only,original_order,region,인천·경기,Q2,325,325,0,327,0.6025
+EXAONE-3.5-7.8B-Instruct,exaone,demographics_only,original_order,region,인천·경기,Q3,325,325,0,327,0.657
+EXAONE-3.5-7.8B-Instruct,exaone,demographics_only,original_order,region,인천·경기,Q4,325,325,0,327,0.2642692307692308
+EXAONE-3.5-7.8B-Instruct,exaone,demographics_only,original_order,region,인천·경기,Q5,325,325,0,327,0.9138461538461539
+EXAONE-3.5-7.8B-Instruct,exaone,demographics_only,original_order,region,대전·세종·충청,Q2,108,108,0,109,0.6685185185185185
+EXAONE-3.5-7.8B-Instruct,exaone,demographics_only,original_order,region,대전·세종·충청,Q3,108,108,0,109,0.642
+EXAONE-3.5-7.8B-Instruct,exaone,demographics_only,original_order,region,대전·세종·충청,Q4,108,108,0,109,0.22800000000000004
+EXAONE-3.5-7.8B-Instruct,exaone,demographics_only,original_order,region,대전·세종·충청,Q5,108,108,0,109,0.9179999999999999
+EXAONE-3.5-7.8B-Instruct,exaone,demographics_only,original_order,region,광주·전라,Q2,96,96,0,96,0.6839999999999999
+EXAONE-3.5-7.8B-Instruct,exaone,demographics_only,original_order,region,광주·전라,Q3,96,96,0,96,0.5185
+EXAONE-3.5-7.8B-Instruct,exaone,demographics_only,original_order,region,광주·전라,Q4,96,96,0,96,0.33699999999999997
+EXAONE-3.5-7.8B-Instruct,exaone,demographics_only,original_order,region,광주·전라,Q5,96,96,0,96,0.9444999999999999
+EXAONE-3.5-7.8B-Instruct,exaone,demographics_only,original_order,region,대구·경북,Q2,95,95,0,96,0.6534210526315789
+EXAONE-3.5-7.8B-Instruct,exaone,demographics_only,original_order,region,대구·경북,Q3,95,95,0,96,0.6469999999999999
+EXAONE-3.5-7.8B-Instruct,exaone,demographics_only,original_order,region,대구·경북,Q4,95,95,0,96,0.2715000000000001
+EXAONE-3.5-7.8B-Instruct,exaone,demographics_only,original_order,region,대구·경북,Q5,95,95,0,96,0.9254736842105262
+EXAONE-3.5-7.8B-Instruct,exaone,demographics_only,original_order,region,부산·울산·경남,Q2,147,147,0,148,0.5960000000000001
+EXAONE-3.5-7.8B-Instruct,exaone,demographics_only,original_order,region,부산·울산·경남,Q3,147,147,0,148,0.605
+EXAONE-3.5-7.8B-Instruct,exaone,demographics_only,original_order,region,부산·울산·경남,Q4,147,147,0,148,0.3372721088435374
+EXAONE-3.5-7.8B-Instruct,exaone,demographics_only,original_order,region,부산·울산·경남,Q5,147,147,0,148,0.94
+EXAONE-3.5-7.8B-Instruct,exaone,demographics_only,original_order,region,강원·제주,Q2,43,43,0,43,0.7295
+EXAONE-3.5-7.8B-Instruct,exaone,demographics_only,original_order,region,강원·제주,Q3,43,43,0,43,0.6940000000000001
+EXAONE-3.5-7.8B-Instruct,exaone,demographics_only,original_order,region,강원·제주,Q4,43,43,0,43,0.30200000000000005
+EXAONE-3.5-7.8B-Instruct,exaone,demographics_only,original_order,region,강원·제주,Q5,43,43,0,43,0.9664999999999999
+EXAONE-3.5-7.8B-Instruct,exaone,demographics_plus_persona,original_order,sex,남성,Q2,495,495,0,498,0.6705
+EXAONE-3.5-7.8B-Instruct,exaone,demographics_plus_persona,original_order,sex,남성,Q3,495,495,0,498,0.696479797979798
+EXAONE-3.5-7.8B-Instruct,exaone,demographics_plus_persona,original_order,sex,남성,Q4,495,495,0,498,0.27362626262626266
+EXAONE-3.5-7.8B-Instruct,exaone,demographics_plus_persona,original_order,sex,남성,Q5,495,495,0,498,0.9119545454545454
+EXAONE-3.5-7.8B-Instruct,exaone,demographics_plus_persona,original_order,sex,여성,Q2,505,505,0,508,0.559
+EXAONE-3.5-7.8B-Instruct,exaone,demographics_plus_persona,original_order,sex,여성,Q3,505,505,0,508,0.591
+EXAONE-3.5-7.8B-Instruct,exaone,demographics_plus_persona,original_order,sex,여성,Q4,505,505,0,508,0.30078217821782177
+EXAONE-3.5-7.8B-Instruct,exaone,demographics_plus_persona,original_order,sex,여성,Q5,505,505,0,508,0.8951188118811881
+EXAONE-3.5-7.8B-Instruct,exaone,demographics_plus_persona,original_order,age,19-29,Q2,146,146,0,147,0.651
+EXAONE-3.5-7.8B-Instruct,exaone,demographics_plus_persona,original_order,age,19-29,Q3,146,146,0,147,0.764
+EXAONE-3.5-7.8B-Instruct,exaone,demographics_plus_persona,original_order,age,19-29,Q4,146,146,0,147,0.44731506849315067
+EXAONE-3.5-7.8B-Instruct,exaone,demographics_plus_persona,original_order,age,19-29,Q5,146,146,0,147,0.972
+EXAONE-3.5-7.8B-Instruct,exaone,demographics_plus_persona,original_order,age,30-39,Q2,150,150,0,151,0.747
+EXAONE-3.5-7.8B-Instruct,exaone,demographics_plus_persona,original_order,age,30-39,Q3,150,150,0,151,0.732
+EXAONE-3.5-7.8B-Instruct,exaone,demographics_plus_persona,original_order,age,30-39,Q4,150,150,0,151,0.196
+EXAONE-3.5-7.8B-Instruct,exaone,demographics_plus_persona,original_order,age,30-39,Q5,150,150,0,151,0.9365
+EXAONE-3.5-7.8B-Instruct,exaone,demographics_plus_persona,original_order,age,40-49,Q2,169,169,0,170,0.6495
+EXAONE-3.5-7.8B-Instruct,exaone,demographics_plus_persona,original_order,age,40-49,Q3,169,169,0,170,0.649
+EXAONE-3.5-7.8B-Instruct,exaone,demographics_plus_persona,original_order,age,40-49,Q4,169,169,0,170,0.25855029585798817
+EXAONE-3.5-7.8B-Instruct,exaone,demographics_plus_persona,original_order,age,40-49,Q5,169,169,0,170,0.9159112426035503
+EXAONE-3.5-7.8B-Instruct,exaone,demographics_plus_persona,original_order,age,50-59,Q2,193,193,0,194,0.6435
+EXAONE-3.5-7.8B-Instruct,exaone,demographics_plus_persona,original_order,age,50-59,Q3,193,193,0,194,0.5955
+EXAONE-3.5-7.8B-Instruct,exaone,demographics_plus_persona,original_order,age,50-59,Q4,193,193,0,194,0.4494766839378239
+EXAONE-3.5-7.8B-Instruct,exaone,demographics_plus_persona,original_order,age,50-59,Q5,193,193,0,194,0.8620492227979275
+EXAONE-3.5-7.8B-Instruct,exaone,demographics_plus_persona,original_order,age,60-69,Q2,179,179,0,180,0.6324301675977654
+EXAONE-3.5-7.8B-Instruct,exaone,demographics_plus_persona,original_order,age,60-69,Q3,179,179,0,180,0.587
+EXAONE-3.5-7.8B-Instruct,exaone,demographics_plus_persona,original_order,age,60-69,Q4,179,179,0,180,0.56518156424581
+EXAONE-3.5-7.8B-Instruct,exaone,demographics_plus_persona,original_order,age,60-69,Q5,179,179,0,180,0.8911536312849162
+EXAONE-3.5-7.8B-Instruct,exaone,demographics_plus_persona,original_order,age,70+,Q2,163,163,0,164,0.7016104294478528
+EXAONE-3.5-7.8B-Instruct,exaone,demographics_plus_persona,original_order,age,70+,Q3,163,163,0,164,0.5870613496932515
+EXAONE-3.5-7.8B-Instruct,exaone,demographics_plus_persona,original_order,age,70+,Q4,163,163,0,164,0.7363251533742331
+EXAONE-3.5-7.8B-Instruct,exaone,demographics_plus_persona,original_order,age,70+,Q5,163,163,0,164,0.8599601226993865
+EXAONE-3.5-7.8B-Instruct,exaone,demographics_plus_persona,original_order,region,서울,Q2,186,186,0,187,0.671
+EXAONE-3.5-7.8B-Instruct,exaone,demographics_plus_persona,original_order,region,서울,Q3,186,186,0,187,0.7055
+EXAONE-3.5-7.8B-Instruct,exaone,demographics_plus_persona,original_order,region,서울,Q4,186,186,0,187,0.14748924731182791
+EXAONE-3.5-7.8B-Instruct,exaone,demographics_plus_persona,original_order,region,서울,Q5,186,186,0,187,0.939994623655914
+EXAONE-3.5-7.8B-Instruct,exaone,demographics_plus_persona,original_order,region,인천·경기,Q2,325,325,0,327,0.6025
+EXAONE-3.5-7.8B-Instruct,exaone,demographics_plus_persona,original_order,region,인천·경기,Q3,325,325,0,327,0.6570000000000001
+EXAONE-3.5-7.8B-Instruct,exaone,demographics_plus_persona,original_order,region,인천·경기,Q4,325,325,0,327,0.30119230769230765
+EXAONE-3.5-7.8B-Instruct,exaone,demographics_plus_persona,original_order,region,인천·경기,Q5,325,325,0,327,0.8646153846153846
+EXAONE-3.5-7.8B-Instruct,exaone,demographics_plus_persona,original_order,region,대전·세종·충청,Q2,108,108,0,109,0.627
+EXAONE-3.5-7.8B-Instruct,exaone,demographics_plus_persona,original_order,region,대전·세종·충청,Q3,108,108,0,109,0.642
+EXAONE-3.5-7.8B-Instruct,exaone,demographics_plus_persona,original_order,region,대전·세종·충청,Q4,108,108,0,109,0.34044444444444444
+EXAONE-3.5-7.8B-Instruct,exaone,demographics_plus_persona,original_order,region,대전·세종·충청,Q5,108,108,0,109,0.9087407407407406
+EXAONE-3.5-7.8B-Instruct,exaone,demographics_plus_persona,original_order,region,광주·전라,Q2,96,96,0,96,0.5798333333333333
+EXAONE-3.5-7.8B-Instruct,exaone,demographics_plus_persona,original_order,region,광주·전라,Q3,96,96,0,96,0.5080833333333333
+EXAONE-3.5-7.8B-Instruct,exaone,demographics_plus_persona,original_order,region,광주·전라,Q4,96,96,0,96,0.32383333333333336
+EXAONE-3.5-7.8B-Instruct,exaone,demographics_plus_persona,original_order,region,광주·전라,Q5,96,96,0,96,0.9236666666666666
+EXAONE-3.5-7.8B-Instruct,exaone,demographics_plus_persona,original_order,region,대구·경북,Q2,95,95,0,96,0.602
+EXAONE-3.5-7.8B-Instruct,exaone,demographics_plus_persona,original_order,region,대구·경북,Q3,95,95,0,96,0.6469999999999999
+EXAONE-3.5-7.8B-Instruct,exaone,demographics_plus_persona,original_order,region,대구·경북,Q4,95,95,0,96,0.2757631578947368
+EXAONE-3.5-7.8B-Instruct,exaone,demographics_plus_persona,original_order,region,대구·경북,Q5,95,95,0,96,0.8938947368421053
+EXAONE-3.5-7.8B-Instruct,exaone,demographics_plus_persona,original_order,region,부산·울산·경남,Q2,147,147,0,148,0.596
+EXAONE-3.5-7.8B-Instruct,exaone,demographics_plus_persona,original_order,region,부산·울산·경남,Q3,147,147,0,148,0.605
+EXAONE-3.5-7.8B-Instruct,exaone,demographics_plus_persona,original_order,region,부산·울산·경남,Q4,147,147,0,148,0.3916938775510204
+EXAONE-3.5-7.8B-Instruct,exaone,demographics_plus_persona,original_order,region,부산·울산·경남,Q5,147,147,0,148,0.9127891156462584
+EXAONE-3.5-7.8B-Instruct,exaone,demographics_plus_persona,original_order,region,강원·제주,Q2,43,43,0,43,0.7295
+EXAONE-3.5-7.8B-Instruct,exaone,demographics_plus_persona,original_order,region,강원·제주,Q3,43,43,0,43,0.694
+EXAONE-3.5-7.8B-Instruct,exaone,demographics_plus_persona,original_order,region,강원·제주,Q4,43,43,0,43,0.3619302325581395
+EXAONE-3.5-7.8B-Instruct,exaone,demographics_plus_persona,original_order,region,강원·제주,Q5,43,43,0,43,0.9664999999999999
+Gemma-3-12B,gemma,demographics_only,original_order,sex,남성,Q2,495,495,0,498,0.7031868686868687
+Gemma-3-12B,gemma,demographics_only,original_order,sex,남성,Q3,495,495,0,498,0.508459595959596
+Gemma-3-12B,gemma,demographics_only,original_order,sex,남성,Q4,495,495,0,498,0.5705959595959597
+Gemma-3-12B,gemma,demographics_only,original_order,sex,남성,Q5,495,495,0,498,0.679479797979798
+Gemma-3-12B,gemma,demographics_only,original_order,sex,여성,Q2,505,505,0,508,0.8035148514851486
+Gemma-3-12B,gemma,demographics_only,original_order,sex,여성,Q3,505,505,0,508,0.514
+Gemma-3-12B,gemma,demographics_only,original_order,sex,여성,Q4,505,505,0,508,0.5672376237623762
+Gemma-3-12B,gemma,demographics_only,original_order,sex,여성,Q5,505,505,0,508,0.6450792079207921
+Gemma-3-12B,gemma,demographics_only,original_order,age,19-29,Q2,146,146,0,147,0.768958904109589
+Gemma-3-12B,gemma,demographics_only,original_order,age,19-29,Q3,146,146,0,147,0.7487534246575341
+Gemma-3-12B,gemma,demographics_only,original_order,age,19-29,Q4,146,146,0,147,0.33100000000000007
+Gemma-3-12B,gemma,demographics_only,original_order,age,19-29,Q5,146,146,0,147,0.683
+Gemma-3-12B,gemma,demographics_only,original_order,age,30-39,Q2,150,150,0,151,0.6583333333333333
+Gemma-3-12B,gemma,demographics_only,original_order,age,30-39,Q3,150,150,0,151,0.6883333333333332
+Gemma-3-12B,gemma,demographics_only,original_order,age,30-39,Q4,150,150,0,151,0.4273333333333333
+Gemma-3-12B,gemma,demographics_only,original_order,age,30-39,Q5,150,150,0,151,0.6991666666666667
+Gemma-3-12B,gemma,demographics_only,original_order,age,40-49,Q2,169,169,0,170,0.717405325443787
+Gemma-3-12B,gemma,demographics_only,original_order,age,40-49,Q3,169,169,0,170,0.5649881656804734
+Gemma-3-12B,gemma,demographics_only,original_order,age,40-49,Q4,169,169,0,170,0.5899112426035502
+Gemma-3-12B,gemma,demographics_only,original_order,age,40-49,Q5,169,169,0,170,0.642
+Gemma-3-12B,gemma,demographics_only,original_order,age,50-59,Q2,193,193,0,194,0.7804170984455959
+Gemma-3-12B,gemma,demographics_only,original_order,age,50-59,Q3,193,193,0,194,0.4615
+Gemma-3-12B,gemma,demographics_only,original_order,age,50-59,Q4,193,193,0,194,0.6722746113989637
+Gemma-3-12B,gemma,demographics_only,original_order,age,50-59,Q5,193,193,0,194,0.6215
+Gemma-3-12B,gemma,demographics_only,original_order,age,60-69,Q2,179,179,0,180,0.7664804469273743
+Gemma-3-12B,gemma,demographics_only,original_order,age,60-69,Q3,179,179,0,180,0.496
+Gemma-3-12B,gemma,demographics_only,original_order,age,60-69,Q4,179,179,0,180,0.6825
+Gemma-3-12B,gemma,demographics_only,original_order,age,60-69,Q5,179,179,0,180,0.6739022346368715
+Gemma-3-12B,gemma,demographics_only,original_order,age,70+,Q2,163,163,0,164,0.8372300613496932
+Gemma-3-12B,gemma,demographics_only,original_order,age,70+,Q3,163,163,0,164,0.6777055214723927
+Gemma-3-12B,gemma,demographics_only,original_order,age,70+,Q4,163,163,0,164,0.767
+Gemma-3-12B,gemma,demographics_only,original_order,age,70+,Q5,163,163,0,164,0.8852300613496933
+Gemma-3-12B,gemma,demographics_only,original_order,region,서울,Q2,186,186,0,187,0.6994623655913978
+Gemma-3-12B,gemma,demographics_only,original_order,region,서울,Q3,186,186,0,187,0.5875
+Gemma-3-12B,gemma,demographics_only,original_order,region,서울,Q4,186,186,0,187,0.498994623655914
+Gemma-3-12B,gemma,demographics_only,original_order,region,서울,Q5,186,186,0,187,0.5868655913978494
+Gemma-3-12B,gemma,demographics_only,original_order,region,인천·경기,Q2,325,325,0,327,0.7796538461538461
+Gemma-3-12B,gemma,demographics_only,original_order,region,인천·경기,Q3,325,325,0,327,0.4889230769230769
+Gemma-3-12B,gemma,demographics_only,original_order,region,인천·경기,Q4,325,325,0,327,0.5719615384615385
+Gemma-3-12B,gemma,demographics_only,original_order,region,인천·경기,Q5,325,325,0,327,0.6856923076923077
+Gemma-3-12B,gemma,demographics_only,original_order,region,대전·세종·충청,Q2,108,108,0,109,0.8056666666666668
+Gemma-3-12B,gemma,demographics_only,original_order,region,대전·세종·충청,Q3,108,108,0,109,0.494
+Gemma-3-12B,gemma,demographics_only,original_order,region,대전·세종·충청,Q4,108,108,0,109,0.5904444444444444
+Gemma-3-12B,gemma,demographics_only,original_order,region,대전·세종·충청,Q5,108,108,0,109,0.5890000000000001
+Gemma-3-12B,gemma,demographics_only,original_order,region,광주·전라,Q2,96,96,0,96,0.85825
+Gemma-3-12B,gemma,demographics_only,original_order,region,광주·전라,Q3,96,96,0,96,0.4865
+Gemma-3-12B,gemma,demographics_only,original_order,region,광주·전라,Q4,96,96,0,96,0.6154999999999999
+Gemma-3-12B,gemma,demographics_only,original_order,region,광주·전라,Q5,96,96,0,96,0.7145
+Gemma-3-12B,gemma,demographics_only,original_order,region,대구·경북,Q2,95,95,0,96,0.6872105263157895
+Gemma-3-12B,gemma,demographics_only,original_order,region,대구·경북,Q3,95,95,0,96,0.526
+Gemma-3-12B,gemma,demographics_only,original_order,region,대구·경북,Q4,95,95,0,96,0.5494473684210526
+Gemma-3-12B,gemma,demographics_only,original_order,region,대구·경북,Q5,95,95,0,96,0.687
+Gemma-3-12B,gemma,demographics_only,original_order,region,부산·울산·경남,Q2,147,147,0,148,0.6877619047619047
+Gemma-3-12B,gemma,demographics_only,original_order,region,부산·울산·경남,Q3,147,147,0,148,0.4571972789115646
+Gemma-3-12B,gemma,demographics_only,original_order,region,부산·울산·경남,Q4,147,147,0,148,0.6433945578231293
+Gemma-3-12B,gemma,demographics_only,original_order,region,부산·울산·경남,Q5,147,147,0,148,0.6200000000000001
+Gemma-3-12B,gemma,demographics_only,original_order,region,강원·제주,Q2,43,43,0,43,0.8059883720930232
+Gemma-3-12B,gemma,demographics_only,original_order,region,강원·제주,Q3,43,43,0,43,0.6140000000000001
+Gemma-3-12B,gemma,demographics_only,original_order,region,강원·제주,Q4,43,43,0,43,0.6177441860465116
+Gemma-3-12B,gemma,demographics_only,original_order,region,강원·제주,Q5,43,43,0,43,0.6635
+Gemma-3-12B,gemma,demographics_plus_persona,original_order,sex,남성,Q2,495,495,0,498,0.5112676767676768
+Gemma-3-12B,gemma,demographics_plus_persona,original_order,sex,남성,Q3,495,495,0,498,0.7052373737373738
+Gemma-3-12B,gemma,demographics_plus_persona,original_order,sex,남성,Q4,495,495,0,498,0.5241313131313131
+Gemma-3-12B,gemma,demographics_plus_persona,original_order,sex,남성,Q5,495,495,0,498,0.6815
+Gemma-3-12B,gemma,demographics_plus_persona,original_order,sex,여성,Q2,505,505,0,508,0.7361881188118813
+Gemma-3-12B,gemma,demographics_plus_persona,original_order,sex,여성,Q3,505,505,0,508,0.6693366336633664
+Gemma-3-12B,gemma,demographics_plus_persona,original_order,sex,여성,Q4,505,505,0,508,0.5711980198019802
+Gemma-3-12B,gemma,demographics_plus_persona,original_order,sex,여성,Q5,505,505,0,508,0.6241386138613861
+Gemma-3-12B,gemma,demographics_plus_persona,original_order,age,19-29,Q2,146,146,0,147,0.536082191780822
+Gemma-3-12B,gemma,demographics_plus_persona,original_order,age,19-29,Q3,146,146,0,147,0.7693013698630137
+Gemma-3-12B,gemma,demographics_plus_persona,original_order,age,19-29,Q4,146,146,0,147,0.385
+Gemma-3-12B,gemma,demographics_plus_persona,original_order,age,19-29,Q5,146,146,0,147,0.6829999999999999
+Gemma-3-12B,gemma,demographics_plus_persona,original_order,age,30-39,Q2,150,150,0,151,0.5879999999999999
+Gemma-3-12B,gemma,demographics_plus_persona,original_order,age,30-39,Q3,150,150,0,151,0.7549999999999999
+Gemma-3-12B,gemma,demographics_plus_persona,original_order,age,30-39,Q4,150,150,0,151,0.4206666666666667
+Gemma-3-12B,gemma,demographics_plus_persona,original_order,age,30-39,Q5,150,150,0,151,0.7058333333333333
+Gemma-3-12B,gemma,demographics_plus_persona,original_order,age,40-49,Q2,169,169,0,170,0.5598313609467456
+Gemma-3-12B,gemma,demographics_plus_persona,original_order,age,40-49,Q3,169,169,0,170,0.6951656804733728
+Gemma-3-12B,gemma,demographics_plus_persona,original_order,age,40-49,Q4,169,169,0,170,0.5121656804733727
+Gemma-3-12B,gemma,demographics_plus_persona,original_order,age,40-49,Q5,169,169,0,170,0.642
+Gemma-3-12B,gemma,demographics_plus_persona,original_order,age,50-59,Q2,193,193,0,194,0.6508834196891191
+Gemma-3-12B,gemma,demographics_plus_persona,original_order,age,50-59,Q3,193,193,0,194,0.6773186528497409
+Gemma-3-12B,gemma,demographics_plus_persona,original_order,age,50-59,Q4,193,193,0,194,0.5790103626943005
+Gemma-3-12B,gemma,demographics_plus_persona,original_order,age,50-59,Q5,193,193,0,194,0.6214999999999999
+Gemma-3-12B,gemma,demographics_plus_persona,original_order,age,60-69,Q2,179,179,0,180,0.6994413407821228
+Gemma-3-12B,gemma,demographics_plus_persona,original_order,age,60-69,Q3,179,179,0,180,0.676413407821229
+Gemma-3-12B,gemma,demographics_plus_persona,original_order,age,60-69,Q4,179,179,0,180,0.6433938547486034
+Gemma-3-12B,gemma,demographics_plus_persona,original_order,age,60-69,Q5,179,179,0,180,0.6906620111731844
+Gemma-3-12B,gemma,demographics_plus_persona,original_order,age,70+,Q2,163,163,0,164,0.818825153374233
+Gemma-3-12B,gemma,demographics_plus_persona,original_order,age,70+,Q3,163,163,0,164,0.5657607361963191
+Gemma-3-12B,gemma,demographics_plus_persona,original_order,age,70+,Q4,163,163,0,164,0.7608650306748466
+Gemma-3-12B,gemma,demographics_plus_persona,original_order,age,70+,Q5,163,163,0,164,0.8729601226993866
+Gemma-3-12B,gemma,demographics_plus_persona,original_order,region,서울,Q2,186,186,0,187,0.5973118279569892
+Gemma-3-12B,gemma,demographics_plus_persona,original_order,region,서울,Q3,186,186,0,187,0.7749946236559139
+Gemma-3-12B,gemma,demographics_plus_persona,original_order,region,서울,Q4,186,186,0,187,0.498994623655914
+Gemma-3-12B,gemma,demographics_plus_persona,original_order,region,서울,Q5,186,186,0,187,0.602994623655914
+Gemma-3-12B,gemma,demographics_plus_persona,original_order,region,인천·경기,Q2,325,325,0,327,0.6042692307692307
+Gemma-3-12B,gemma,demographics_plus_persona,original_order,region,인천·경기,Q3,325,325,0,327,0.6784615384615383
+Gemma-3-12B,gemma,demographics_plus_persona,original_order,region,인천·경기,Q4,325,325,0,327,0.5622692307692307
+Gemma-3-12B,gemma,demographics_plus_persona,original_order,region,인천·경기,Q5,325,325,0,327,0.6887692307692307
+Gemma-3-12B,gemma,demographics_plus_persona,original_order,region,대전·세종·충청,Q2,108,108,0,109,0.6945555555555557
+Gemma-3-12B,gemma,demographics_plus_persona,original_order,region,대전·세종·충청,Q3,108,108,0,109,0.6694814814814816
+Gemma-3-12B,gemma,demographics_plus_persona,original_order,region,대전·세종·충청,Q4,108,108,0,109,0.5449999999999999
+Gemma-3-12B,gemma,demographics_plus_persona,original_order,region,대전·세종·충청,Q5,108,108,0,109,0.5890000000000001
+Gemma-3-12B,gemma,demographics_plus_persona,original_order,region,광주·전라,Q2,96,96,0,96,0.702
+Gemma-3-12B,gemma,demographics_plus_persona,original_order,region,광주·전라,Q3,96,96,0,96,0.5934166666666667
+Gemma-3-12B,gemma,demographics_plus_persona,original_order,region,광주·전라,Q4,96,96,0,96,0.5245833333333334
+Gemma-3-12B,gemma,demographics_plus_persona,original_order,region,광주·전라,Q5,96,96,0,96,0.7145000000000001
+Gemma-3-12B,gemma,demographics_plus_persona,original_order,region,대구·경북,Q2,95,95,0,96,0.6451052631578947
+Gemma-3-12B,gemma,demographics_plus_persona,original_order,region,대구·경북,Q3,95,95,0,96,0.6988947368421052
+Gemma-3-12B,gemma,demographics_plus_persona,original_order,region,대구·경북,Q4,95,95,0,96,0.4757631578947369
+Gemma-3-12B,gemma,demographics_plus_persona,original_order,region,대구·경북,Q5,95,95,0,96,0.687
+Gemma-3-12B,gemma,demographics_plus_persona,original_order,region,부산·울산·경남,Q2,147,147,0,148,0.565312925170068
+Gemma-3-12B,gemma,demographics_plus_persona,original_order,region,부산·울산·경남,Q3,147,147,0,148,0.6403809523809523
+Gemma-3-12B,gemma,demographics_plus_persona,original_order,region,부산·울산·경남,Q4,147,147,0,148,0.5363945578231293
+Gemma-3-12B,gemma,demographics_plus_persona,original_order,region,부산·울산·경남,Q5,147,147,0,148,0.6200000000000001
+Gemma-3-12B,gemma,demographics_plus_persona,original_order,region,강원·제주,Q2,43,43,0,43,0.7129651162790697
+Gemma-3-12B,gemma,demographics_plus_persona,original_order,region,강원·제주,Q3,43,43,0,43,0.7647441860465116
+Gemma-3-12B,gemma,demographics_plus_persona,original_order,region,강원·제주,Q4,43,43,0,43,0.5467441860465116
+Gemma-3-12B,gemma,demographics_plus_persona,original_order,region,강원·제주,Q5,43,43,0,43,0.6635
+Motif 3,motif,demographics_only,original_order,sex,남성,Q2,495,495,0,498,0.5765
+Motif 3,motif,demographics_only,original_order,sex,남성,Q3,495,495,0,498,0.6542272727272727
+Motif 3,motif,demographics_only,original_order,sex,남성,Q4,495,495,0,498,0.3628585858585859
+Motif 3,motif,demographics_only,original_order,sex,남성,Q5,495,495,0,498,0.8044393939393938
+Motif 3,motif,demographics_only,original_order,sex,여성,Q2,505,505,0,508,0.555
+Motif 3,motif,demographics_only,original_order,sex,여성,Q3,505,505,0,508,0.6605049504950495
+Motif 3,motif,demographics_only,original_order,sex,여성,Q4,505,505,0,508,0.40092079207920794
+Motif 3,motif,demographics_only,original_order,sex,여성,Q5,505,505,0,508,0.7790594059405941
+Motif 3,motif,demographics_only,original_order,age,19-29,Q2,146,146,0,147,0.598
+Motif 3,motif,demographics_only,original_order,age,19-29,Q3,146,146,0,147,0.5559999999999999
+Motif 3,motif,demographics_only,original_order,age,19-29,Q4,146,146,0,147,0.6553013698630136
+Motif 3,motif,demographics_only,original_order,age,19-29,Q5,146,146,0,147,0.8531506849315068
+Motif 3,motif,demographics_only,original_order,age,30-39,Q2,150,150,0,151,0.6479999999999999
+Motif 3,motif,demographics_only,original_order,age,30-39,Q3,150,150,0,151,0.5609999999999999
+Motif 3,motif,demographics_only,original_order,age,30-39,Q4,150,150,0,151,0.5960000000000001
+Motif 3,motif,demographics_only,original_order,age,30-39,Q5,150,150,0,151,0.8234999999999999
+Motif 3,motif,demographics_only,original_order,age,40-49,Q2,169,169,0,170,0.5835
+Motif 3,motif,demographics_only,original_order,age,40-49,Q3,169,169,0,170,0.61098224852071
+Motif 3,motif,demographics_only,original_order,age,40-49,Q4,169,169,0,170,0.5232485207100592
+Motif 3,motif,demographics_only,original_order,age,40-49,Q5,169,169,0,170,0.7781656804733729
+Motif 3,motif,demographics_only,original_order,age,50-59,Q2,193,193,0,194,0.6035
+Motif 3,motif,demographics_only,original_order,age,50-59,Q3,193,193,0,194,0.6904170984455958
+Motif 3,motif,demographics_only,original_order,age,50-59,Q4,193,193,0,194,0.4502797927461139
+Motif 3,motif,demographics_only,original_order,age,50-59,Q5,193,193,0,194,0.7735
+Motif 3,motif,demographics_only,original_order,age,60-69,Q2,179,179,0,180,0.5877094972067038
+Motif 3,motif,demographics_only,original_order,age,60-69,Q3,179,179,0,180,0.7748938547486033
+Motif 3,motif,demographics_only,original_order,age,60-69,Q4,179,179,0,180,0.23391340782122905
+Motif 3,motif,demographics_only,original_order,age,60-69,Q5,179,179,0,180,0.7705000000000001
+Motif 3,motif,demographics_only,original_order,age,70+,Q2,163,163,0,164,0.7452055214723926
+Motif 3,motif,demographics_only,original_order,age,70+,Q3,163,163,0,164,0.7697300613496932
+Motif 3,motif,demographics_only,original_order,age,70+,Q4,163,163,0,164,0.4847914110429447
+Motif 3,motif,demographics_only,original_order,age,70+,Q5,163,163,0,164,0.76809509202454
+Motif 3,motif,demographics_only,original_order,region,서울,Q2,186,186,0,187,0.608
+Motif 3,motif,demographics_only,original_order,region,서울,Q3,186,186,0,187,0.5875
+Motif 3,motif,demographics_only,original_order,region,서울,Q4,186,186,0,187,0.3805752688172042
+Motif 3,motif,demographics_only,original_order,region,서울,Q5,186,186,0,187,0.7823709677419355
+Motif 3,motif,demographics_only,original_order,region,인천·경기,Q2,325,325,0,327,0.5745
+Motif 3,motif,demographics_only,original_order,region,인천·경기,Q3,325,325,0,327,0.6473846153846153
+Motif 3,motif,demographics_only,original_order,region,인천·경기,Q4,325,325,0,327,0.3939615384615384
+Motif 3,motif,demographics_only,original_order,region,인천·경기,Q5,325,325,0,327,0.8128461538461539
+Motif 3,motif,demographics_only,original_order,region,대전·세종·충청,Q2,108,108,0,109,0.6160000000000001
+Motif 3,motif,demographics_only,original_order,region,대전·세종·충청,Q3,108,108,0,109,0.7504444444444445
+Motif 3,motif,demographics_only,original_order,region,대전·세종·충청,Q4,108,108,0,109,0.4338518518518518
+Motif 3,motif,demographics_only,original_order,region,대전·세종·충청,Q5,108,108,0,109,0.771
+Motif 3,motif,demographics_only,original_order,region,광주·전라,Q2,96,96,0,96,0.5345
+Motif 3,motif,demographics_only,original_order,region,광주·전라,Q3,96,96,0,96,0.80925
+Motif 3,motif,demographics_only,original_order,region,광주·전라,Q4,96,96,0,96,0.3881666666666666
+Motif 3,motif,demographics_only,original_order,region,광주·전라,Q5,96,96,0,96,0.8045000000000001
+Motif 3,motif,demographics_only,original_order,region,대구·경북,Q2,95,95,0,96,0.52
+Motif 3,motif,demographics_only,original_order,region,대구·경북,Q3,95,95,0,96,0.6797368421052632
+Motif 3,motif,demographics_only,original_order,region,대구·경북,Q4,95,95,0,96,0.3751842105263158
+Motif 3,motif,demographics_only,original_order,region,대구·경북,Q5,95,95,0,96,0.81
+Motif 3,motif,demographics_only,original_order,region,부산·울산·경남,Q2,147,147,0,148,0.482
+Motif 3,motif,demographics_only,original_order,region,부산·울산·경남,Q3,147,147,0,148,0.7011700680272108
+Motif 3,motif,demographics_only,original_order,region,부산·울산·경남,Q4,147,147,0,148,0.31990476190476186
+Motif 3,motif,demographics_only,original_order,region,부산·울산·경남,Q5,147,147,0,148,0.7391972789115647
+Motif 3,motif,demographics_only,original_order,region,강원·제주,Q2,43,43,0,43,0.6485
+Motif 3,motif,demographics_only,original_order,region,강원·제주,Q3,43,43,0,43,0.6864651162790698
+Motif 3,motif,demographics_only,original_order,region,강원·제주,Q4,43,43,0,43,0.3819302325581395
+Motif 3,motif,demographics_only,original_order,region,강원·제주,Q5,43,43,0,43,0.8434999999999999
+Motif 3,motif,demographics_plus_persona,original_order,sex,남성,Q2,495,495,0,498,0.4815505050505051
+Motif 3,motif,demographics_plus_persona,original_order,sex,남성,Q3,495,495,0,498,0.5125000000000001
+Motif 3,motif,demographics_plus_persona,original_order,sex,남성,Q4,495,495,0,498,0.38104040404040407
+Motif 3,motif,demographics_plus_persona,original_order,sex,남성,Q5,495,495,0,498,0.7943383838383838
+Motif 3,motif,demographics_plus_persona,original_order,sex,여성,Q2,505,505,0,508,0.5173762376237624
+Motif 3,motif,demographics_plus_persona,original_order,sex,여성,Q3,505,505,0,508,0.514
+Motif 3,motif,demographics_plus_persona,original_order,sex,여성,Q4,505,505,0,508,0.41874257425742567
+Motif 3,motif,demographics_plus_persona,original_order,sex,여성,Q5,505,505,0,508,0.7790594059405941
+Motif 3,motif,demographics_plus_persona,original_order,age,19-29,Q2,146,146,0,147,0.6852054794520548
+Motif 3,motif,demographics_plus_persona,original_order,age,19-29,Q3,146,146,0,147,0.5559999999999999
+Motif 3,motif,demographics_plus_persona,original_order,age,19-29,Q4,146,146,0,147,0.6621506849315069
+Motif 3,motif,demographics_plus_persona,original_order,age,19-29,Q5,146,146,0,147,0.8326027397260274
+Motif 3,motif,demographics_plus_persona,original_order,age,30-39,Q2,150,150,0,151,0.7146666666666666
+Motif 3,motif,demographics_plus_persona,original_order,age,30-39,Q3,150,150,0,151,0.5609999999999999
+Motif 3,motif,demographics_plus_persona,original_order,age,30-39,Q4,150,150,0,151,0.5893333333333334
+Motif 3,motif,demographics_plus_persona,original_order,age,30-39,Q5,150,150,0,151,0.8168333333333333
+Motif 3,motif,demographics_plus_persona,original_order,age,40-49,Q2,169,169,0,170,0.5884881656804734
+Motif 3,motif,demographics_plus_persona,original_order,age,40-49,Q3,169,169,0,170,0.531
+Motif 3,motif,demographics_plus_persona,original_order,age,40-49,Q4,169,169,0,170,0.481828402366864
+Motif 3,motif,demographics_plus_persona,original_order,age,40-49,Q5,169,169,0,170,0.7840828402366864
+Motif 3,motif,demographics_plus_persona,original_order,age,50-59,Q2,193,193,0,194,0.5775932642487046
+Motif 3,motif,demographics_plus_persona,original_order,age,50-59,Q3,193,193,0,194,0.5453393782383419
+Motif 3,motif,demographics_plus_persona,original_order,age,50-59,Q4,193,193,0,194,0.39846632124352327
+Motif 3,motif,demographics_plus_persona,original_order,age,50-59,Q5,193,193,0,194,0.7735
+Motif 3,motif,demographics_plus_persona,original_order,age,60-69,Q2,179,179,0,180,0.42630726256983237
+Motif 3,motif,demographics_plus_persona,original_order,age,60-69,Q3,179,179,0,180,0.6072960893854749
+Motif 3,motif,demographics_plus_persona,original_order,age,60-69,Q4,179,179,0,180,0.2614106145251397
+Motif 3,motif,demographics_plus_persona,original_order,age,60-69,Q5,179,179,0,180,0.7649134078212292
+Motif 3,motif,demographics_plus_persona,original_order,age,70+,Q2,163,163,0,164,0.39949999999999997
+Motif 3,motif,demographics_plus_persona,original_order,age,70+,Q3,163,163,0,164,0.6777055214723927
+Motif 3,motif,demographics_plus_persona,original_order,age,70+,Q4,163,163,0,164,0.40286503067484664
+Motif 3,motif,demographics_plus_persona,original_order,age,70+,Q5,163,163,0,164,0.7619601226993866
+Motif 3,motif,demographics_plus_persona,original_order,region,서울,Q2,186,186,0,187,0.5859569892473119
+Motif 3,motif,demographics_plus_persona,original_order,region,서울,Q3,186,186,0,187,0.5875
+Motif 3,motif,demographics_plus_persona,original_order,region,서울,Q4,186,186,0,187,0.42358602150537633
+Motif 3,motif,demographics_plus_persona,original_order,region,서울,Q5,186,186,0,187,0.7823709677419355
+Motif 3,motif,demographics_plus_persona,original_order,region,인천·경기,Q2,325,325,0,327,0.5068076923076924
+Motif 3,motif,demographics_plus_persona,original_order,region,인천·경기,Q3,325,325,0,327,0.49200000000000005
+Motif 3,motif,demographics_plus_persona,original_order,region,인천·경기,Q4,325,325,0,327,0.42165384615384616
+Motif 3,motif,demographics_plus_persona,original_order,region,인천·경기,Q5,325,325,0,327,0.8036153846153847
+Motif 3,motif,demographics_plus_persona,original_order,region,대전·세종·충청,Q2,108,108,0,109,0.5697037037037037
+Motif 3,motif,demographics_plus_persona,original_order,region,대전·세종·충청,Q3,108,108,0,109,0.5282222222222223
+Motif 3,motif,demographics_plus_persona,original_order,region,대전·세종·충청,Q4,108,108,0,109,0.45237037037037037
+Motif 3,motif,demographics_plus_persona,original_order,region,대전·세종·충청,Q5,108,108,0,109,0.771
+Motif 3,motif,demographics_plus_persona,original_order,region,광주·전라,Q2,96,96,0,96,0.45116666666666666
+Motif 3,motif,demographics_plus_persona,original_order,region,광주·전라,Q3,96,96,0,96,0.5696666666666667
+Motif 3,motif,demographics_plus_persona,original_order,region,광주·전라,Q4,96,96,0,96,0.46108333333333335
+Motif 3,motif,demographics_plus_persona,original_order,region,광주·전라,Q5,96,96,0,96,0.8045000000000001
+Motif 3,motif,demographics_plus_persona,original_order,region,대구·경북,Q2,95,95,0,96,0.385
+Motif 3,motif,demographics_plus_persona,original_order,region,대구·경북,Q3,95,95,0,96,0.526
+Motif 3,motif,demographics_plus_persona,original_order,region,대구·경북,Q4,95,95,0,96,0.3751842105263158
+Motif 3,motif,demographics_plus_persona,original_order,region,대구·경북,Q5,95,95,0,96,0.7889473684210527
+Motif 3,motif,demographics_plus_persona,original_order,region,부산·울산·경남,Q2,147,147,0,148,0.42757823129251704
+Motif 3,motif,demographics_plus_persona,original_order,region,부산·울산·경남,Q3,147,147,0,148,0.5991292517006802
+Motif 3,motif,demographics_plus_persona,original_order,region,부산·울산·경남,Q4,147,147,0,148,0.2722857142857143
+Motif 3,motif,demographics_plus_persona,original_order,region,부산·울산·경남,Q5,147,147,0,148,0.746
+Motif 3,motif,demographics_plus_persona,original_order,region,강원·제주,Q2,43,43,0,43,0.5554767441860465
+Motif 3,motif,demographics_plus_persona,original_order,region,강원·제주,Q3,43,43,0,43,0.6399534883720931
+Motif 3,motif,demographics_plus_persona,original_order,region,강원·제주,Q4,43,43,0,43,0.3586744186046512
+Motif 3,motif,demographics_plus_persona,original_order,region,강원·제주,Q5,43,43,0,43,0.8202441860465116

@@ -1,0 +1,71 @@
+{
+  "integrity": {
+    "qwen": {
+      "observations": 16000,
+      "unique_keys": 16000,
+      "duplicate_keys": 0,
+      "semantic_valid_count": 16000,
+      "semantic_invalid_count": 0,
+      "semantic_valid_rate": 1.0,
+      "format_compliant_count": 16000,
+      "format_compliant_rate": 1.0,
+      "api_model_failures": 0
+    },
+    "exaone": {
+      "observations": 16000,
+      "unique_keys": 16000,
+      "duplicate_keys": 0,
+      "semantic_valid_count": 16000,
+      "semantic_invalid_count": 0,
+      "semantic_valid_rate": 1.0,
+      "format_compliant_count": 16000,
+      "format_compliant_rate": 1.0,
+      "api_model_failures": 0
+    },
+    "gemma": {
+      "observations": 16000,
+      "unique_keys": 16000,
+      "duplicate_keys": 0,
+      "semantic_valid_count": 16000,
+      "semantic_invalid_count": 0,
+      "semantic_valid_rate": 1.0,
+      "format_compliant_count": 16000,
+      "format_compliant_rate": 1.0,
+      "api_model_failures": 0
+    },
+    "motif": {
+      "observations": 16000,
+      "unique_keys": 16000,
+      "duplicate_keys": 0,
+      "semantic_valid_count": 15995,
+      "semantic_invalid_count": 5,
+      "semantic_valid_rate": 0.9996875,
+      "format_compliant_count": 15786,
+      "format_compliant_rate": 0.986625,
+      "api_model_failures": 0
+    },
+    "motif_run2": {
+      "observations": 16000,
+      "unique_keys": 16000,
+      "duplicate_keys": 0,
+      "semantic_valid_count": 15993,
+      "semantic_invalid_count": 7,
+      "semantic_valid_rate": 0.9995625,
+      "format_compliant_count": 15790,
+      "format_compliant_rate": 0.986875,
+      "api_model_failures": 0
+    }
+  },
+  "primary_files_modified": [],
+  "api_key_exposure_file_hits": 0,
+  "new_inference_executed": false,
+  "manuscript_modified": false,
+  "qa": {
+    "HC1_rows": 8,
+    "HC2_rows": 171,
+    "HC3_rows": 120,
+    "HC9_rows": 480,
+    "all_tables_nonempty": true,
+    "all_figures_nonempty": true
+  }
+}

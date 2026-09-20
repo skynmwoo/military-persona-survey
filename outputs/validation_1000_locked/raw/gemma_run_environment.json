@@ -1,0 +1,67 @@
+{
+  "model": "Gemma-3-12B-QAT-Q4_0",
+  "model_path": "models/google/gemma-3-12b-it-qat-q4_0-gguf/gemma-3-12b-it-q4_0.gguf",
+  "model_sha256": "dd53172ff3a7b1b16c8fb3d944b87f42a6228ff2de3825b8813ae90d988434cd",
+  "llama_cpp_build": 10514,
+  "llama_cpp_commit": "7221e24f5",
+  "chat_template": "GGUF embedded template via /apply-template",
+  "context_length": 4096,
+  "gpu_offload_layers_requested": 99,
+  "gpu": "NVIDIA GeForce RTX 3060",
+  "vram_total_mib": 12288,
+  "vram_baseline_mib": 802,
+  "peak_vram_mib": 10011,
+  "peak_vram_increment_mib": 9209,
+  "peak_gpu_utilization_percent": 100,
+  "parallel_independent_slots": 2,
+  "wall_time_seconds": 7037.375035099998,
+  "rows": 16000,
+  "token_ids": {
+    "1": 562,
+    "2": 603,
+    "3": 565,
+    "4": 622,
+    "5": 645
+  },
+  "tokenization": {
+    "B": [
+      {
+        "id": 603,
+        "piece": " B"
+      }
+    ],
+    "A": [
+      {
+        "id": 562,
+        "piece": " A"
+      }
+    ],
+    "D": [
+      {
+        "id": 622,
+        "piece": " D"
+      }
+    ],
+    "C": [
+      {
+        "id": 565,
+        "piece": " C"
+      }
+    ],
+    "E": [
+      {
+        "id": 645,
+        "piece": " E"
+      }
+    ]
+  },
+  "settings": {
+    "temperature": -1,
+    "sampling": "disabled/greedy",
+    "top_k": 0,
+    "top_p": 1.0,
+    "cache_prompt": false,
+    "seed": 2026,
+    "reasoning": "off"
+  }
+}

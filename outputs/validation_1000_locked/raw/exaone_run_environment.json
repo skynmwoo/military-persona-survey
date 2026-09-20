@@ -1,0 +1,67 @@
+{
+  "model": "EXAONE-3.5-7.8B-Instruct-Q4_K_M",
+  "model_path": "models/LGAI-EXAONE/EXAONE-3.5-7.8B-Instruct-GGUF/EXAONE-3.5-7.8B-Instruct-Q4_K_M.gguf",
+  "model_sha256": "2f4aff8d555b82500d4de2723810586e83e358003388fdd08bd52e6091e6ddd1",
+  "llama_cpp_build": 10514,
+  "llama_cpp_commit": "7221e24f5",
+  "chat_template": "GGUF embedded template via /apply-template",
+  "context_length": 4096,
+  "gpu_offload_layers_requested": 99,
+  "gpu": "NVIDIA GeForce RTX 3060",
+  "vram_total_mib": 12288,
+  "vram_baseline_mib": 949,
+  "peak_vram_mib": 6201,
+  "peak_vram_increment_mib": 5252,
+  "peak_gpu_utilization_percent": 100,
+  "parallel_independent_slots": 4,
+  "wall_time_seconds": 3497.5348354000016,
+  "rows": 16000,
+  "token_ids": {
+    "1": 378,
+    "2": 379,
+    "3": 380,
+    "4": 381,
+    "5": 382
+  },
+  "tokenization": {
+    "1": [
+      {
+        "id": 378,
+        "piece": "1"
+      }
+    ],
+    "4": [
+      {
+        "id": 381,
+        "piece": "4"
+      }
+    ],
+    "5": [
+      {
+        "id": 382,
+        "piece": "5"
+      }
+    ],
+    "2": [
+      {
+        "id": 379,
+        "piece": "2"
+      }
+    ],
+    "3": [
+      {
+        "id": 380,
+        "piece": "3"
+      }
+    ]
+  },
+  "settings": {
+    "temperature": -1,
+    "sampling": "disabled/greedy",
+    "top_k": 0,
+    "top_p": 1.0,
+    "cache_prompt": false,
+    "seed": 2026,
+    "reasoning": "off"
+  }
+}

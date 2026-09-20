@@ -1,0 +1,6 @@
+﻿run,model,observations,unique_keys,duplicate_keys,semantic_valid_count,semantic_invalid_count,semantic_valid_rate,format_compliant_count,format_compliant_rate,api_model_failures
+qwen,Qwen3-8B,16000,16000,0,16000,0,1.0,16000,1.0,0
+exaone,EXAONE-3.5-7.8B-Instruct,16000,16000,0,16000,0,1.0,16000,1.0,0
+gemma,Gemma-3-12B,16000,16000,0,16000,0,1.0,16000,1.0,0
+motif,Motif 3,16000,16000,0,15995,5,0.9996875,15786,0.986625,0
+motif_run2,Motif 3 replicate 2,16000,16000,0,15993,7,0.9995625,15790,0.986875,0
