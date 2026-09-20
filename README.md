@@ -14,8 +14,7 @@ turn-key release of the complete local research environment.
   analysis scripts used in the study;
 - analysis-ready model outputs needed to reproduce the reported summary tables;
 - the transcribed public human-survey benchmark with source metadata;
-- final result tables and conference figures, including an editable PowerPoint
-  version of the figures.
+- final analysis tables used to verify the reported results.
 
 The Primary analysis used Qwen3-8B, EXAONE-3.5-7.8B, and Gemma-3-12B with
 normalized next-token choice scores. The hard-choice comparison was a separate
@@ -41,7 +40,6 @@ The repository does not initiate inference during installation or verification.
 ```text
 analysis/reference_tvd/                TVD reference-point analysis
 data/derived/                          fixed validation and smoke-test samples
-figures/                               final raster/vector figures and editable PPTX
 outputs/validation_1000_locked/        Primary plan, benchmark, outputs, and tables
 outputs/hard_choice_extension/         hard-choice protocol, outputs, and tables
 scripts/                               sampling, inference, and Primary analysis
