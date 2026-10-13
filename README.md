@@ -107,7 +107,11 @@ selection was used to improve agreement with the human survey.
 
 ## Availability status
 
-This repository is initially private for author review. Before citing it as
-publicly available, make the repository public or archive a release in a
-persistent repository and replace the provisional wording in
-`DATA_AND_CODE_AVAILABILITY.md`.
+This repository is public at
+https://github.com/skynmwoo/military-persona-survey. It provides the partial
+reproducibility package described above: fixed persona samples, analysis plans
+and protocols, prompts and analysis code, analysis-ready model outputs, the
+transcribed human-survey benchmark, and final analysis tables. Model weights,
+the complete Nemotron-Personas-Korea dataset, and the complete local execution
+environment are not included. See `DATA_AND_CODE_AVAILABILITY.md` for the
+current manuscript wording and scope limitations.
